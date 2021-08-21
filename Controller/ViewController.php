@@ -11,8 +11,9 @@ class ViewController extends Controller{
         // else $user = $this->accountObj->getItemByToken(getCookie("tt_tkn"));
         // getView("homepage", array('title' => 'Trọ Tốt',
         //                             'user' => $user));
-        // return null;                                  
-        $this->getRoomListForCustomerPage(null);  
+        // return null;   
+        getView("home", null);                               
+        // $this->getRoomListForCustomerPage(null);  
     }
     public function getSignupPage(){
         if($this->accountObj->checkLoggedIn() == "Role_None")
