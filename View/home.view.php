@@ -1,346 +1,473 @@
-<html lang="vi" data-cqlang="vi" dir="ltr" data-i18n-dictionary-src="/content/api/rolex/dictionaries.vi.json"><head> 
-  <meta charset="UTF-8"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-  <meta name="locale" content="vi"> 
-  <title>Trang web chính thức của Rolex - Đồng hồ Thụy Sĩ cao cấp</title> 
-   
-  <meta data-rh="true" name="description" content="Đồng hồ Rolex được chế tác từ các nguyên liệu tốt nhất và lắp ráp tỉ mỉ đến từng chi tiết. Khám phá bộ sưu tập đồng hồ cao cấp trên Trang web Chính thức của Rolex."> 
-  <iframe src="javascript:void(0)" title="" style="width: 0px; height: 0px; border: 0px; display: none;"></iframe><script type="text/javascript" src="https://bam.nr-data.net/1/3678c6fe7f?a=545607069&amp;sa=1&amp;v=1167.2a4546b&amp;t=Unnamed%20Transaction&amp;rst=15945&amp;ref=https://www.rolex.com/vi&amp;be=10982&amp;fe=15511&amp;dc=12433&amp;af=err,xhr,stn,ins,spa&amp;perf=%7B%22timing%22:%7B%22of%22:1629531190970,%22n%22:0,%22r%22:4,%22re%22:2955,%22f%22:2955,%22dn%22:2955,%22dne%22:2955,%22c%22:2955,%22ce%22:2955,%22rq%22:2956,%22rp%22:10858,%22rpe%22:12336,%22dl%22:10876,%22di%22:12433,%22ds%22:12434,%22de%22:12449,%22dc%22:15512,%22l%22:15512,%22le%22:15512%7D,%22navigation%22:%7B%22rc%22:1%7D%7D&amp;fp=11769&amp;fcp=11769&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-spa-1167.min.js"></script><script src="https://rules.quantcount.com/rules-p-j6ef-UjNU-sjS.js" async=""></script><script src="https://secure.quantserve.com/quant.js" async="" type="text/javascript"></script><script async="" type="text/javascript" src="https://quantcast.mgr.consensu.org/tcfv2/33/cmp2.js?referer=www.rolex.com"></script><script async="" type="text/javascript" src="https://quantcast.mgr.consensu.org/choice/j6ef-UjNU-sjS/www.rolex.com/choice.js?timestamp=1629531201943"></script><script type="application/ld+json">
-                 {
-             "@context": "https://schema.org",
-             "@type": "ItemList",
-             "itemListElement": [
-            {
-                "@type": "VideoObject",
-                "name": "",
-                "thumbnailUrl": ["https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe.jpg"],
-                "description": "",
-                "contentUrl": "https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039.mp4",
-                "url": "https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039.mp4",
-                "uploadDate": "2021-05-28T13:14:56.636Z",
-                "position": "1"
-            },
-            {
-                "@type": "VideoObject",
-                "name": "",
-                "thumbnailUrl": ["https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe.jpg"],
-                "description": "",
-                "contentUrl": "https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev.mp4",
-                "url": "https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev.mp4",
-                "uploadDate": "2021-07-13T08:19:13.098Z",
-                "position": "2"
-            }
-]
- }
+<?php 
+    // include_once 'controller/database.php';
+    // include_once 'model/edit_title.php';
+    // include_once 'views/show/show_product_company.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
 
-    </script> 
-  <meta name="template" content="page-home-template"> 
-  <meta name="viewport" content="width=device-width, user-scalable=1"> 
-  <meta data-rh="true" property="og:title" content="Trang web Chính thức của Rolex"> 
-  <meta data-rh="true" property="og:url" content="https://www.rolex.com/vi"> 
-  <meta data-rh="true" property="og:type" content="WEBSITE"> 
-  <meta data-rh="true" property="og:site_name" content="Rolex"> 
-  <meta data-rh="true" property="og:image" content="https://content.rolex.com/dam/homepage/share/homepage-datejust-36-m126233-0039-share.jpg"> 
-   
-  <meta data-rh="true" property="searchimage" content="https://content.rolex.com/dam/new-watches-2021/homepage/search/homepage-new-watches-2021-search.jpg"> 
-  <meta property="naver-site-verification" content="7e83d12881f74a4b711d5d34e8f1ff03213e5ebf"> 
-  <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "url": "https://www.rolex.com",
-            "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.rolex.com/search.html#{search_term}",
-                "query-input": "required name=search_term"
-            }
+<head>
+    <?php getTemplate("header") ?>
+    <title>Trang chủ | Y Tế Cường Mạnh</title>
+    <style>
+        h2 {
+            font-size: 16px;
         }
-    </script> 
-  <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "name": "Rolex",
-            "logo": "/content/dam/rolex/site-icons/rolex-logo-white-text.svg",
-            "url": "https://www.rolex.com",
-            "sameAs": [
-                "https://www.facebook.com/rolex",
-                "https://www.youtube.com/rolex",
-                "https://www.pinterest.com/rolex/",
-                "https://www.instagram.com/rolex/",
-                "https://twitter.com/rolex"
-            ]
+        .price-value {
+            font-size: 20px;
         }
-    </script> 
-  <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) --> 
-  <script type="text/javascript" async="true">
-        (function () {
-            var host = window.location.hostname;
-            var element = document.createElement('script');
-            var firstScript = document.getElementsByTagName('script')[0];
-            var milliseconds = new Date().getTime();
-            var url = 'https://quantcast.mgr.consensu.org'
-                .concat('/choice/', 'j6ef-UjNU-sjS', '/', host, '/choice.js')
-                .concat('?timestamp=', milliseconds);
-            var uspTries = 0;
-            var uspTriesLimit = 3;
-            element.async = true;
-            element.type = 'text/javascript';
-            element.src = url;
-            firstScript.parentNode.insertBefore(element, firstScript);
+    </style>
+</head>
 
-            function makeStub() {
-                var TCF_LOCATOR_NAME = '__tcfapiLocator';
-                var queue = [];
-                var win = window;
-                var cmpFrame;
+<body id="home" class="wide body-light">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- Wrap all content -->
+    <div class="wrapper">
+        <!-- HEADER -->
+        <?php getTemplate("navbar") ?>
+        <!-- /HEADER -->
+        <!-- Content area -->
+        <div class="content-area">
+            <div id="main">
+                <!-- SLIDER -->
+                <section class="page-section no-padding background-img-slider">
+                    <div class="container">
+                        <div id="main-slider">
+                            
+                            <div class="item page text-center slide" style="background: url(assets/img/banner/bg5.jpg) center center / cover;">
+                                <div class="caption" style="background: #00000014;">
+                                    <div class="container">
+                                        <div class="col-md-8" style="height: 93% !important;display: table !important;text-align: left;">
+                                            <div class="div-cell">
+                                                <h2 class="caption-title">Y TẾ CƯỜNG MẠNH</h2>
+                                                <h3 class="caption-subtitle">NHÀ PHÂN PHỐI CỦA SIEMENS</h3>
+                                                <!-- Event description -->
+                                                <!-- /Event description -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item page text-center slide2" style="background: url(views/assets/img/banner/bg0.jpg) center center / cover;">
+                                <div class="caption" style="background: #00000014;">
+                                    <div class="container">
+                                        <div class="div-table">
+                                            <div class="div-cell">
+                                                <p class="caption-text">
+                                                    <a id="playy" class="btn btn-play" href="javascript:;"><i class="fa fa-play"></i></a>
+                                                    <iframe id="video" style="width: 100%;" height="500" src="https://www.youtube.com/embed/IqneZgrL0Qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </p>
+                                                <!-- Event description -->
+                                                <!-- /Event description -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Event description -->
+                    <div class="event-description">
+                        <div class="container">
+                            <div class="row">
+                                <div class="event-background">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="media">
+                                                    <span class="pull-left">
+                                                        <i class="fa fa-calendar fa-2x"></i>
+                                                    </span>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Số năm hoạt động</h4>
+                                                        <span>Hơn 09 năm</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-5">
+                                                <div class="media">
+                                                    <span class="pull-left">
+                                                        <i class="fa fa-map-marker fa-2x"></i>
+                                                    </span>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Địa chỉ</h4>
+                                                        <span>Số 63 Phố Đỗ Quang, Trung Hòa, Hà Nội</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                                <div class="media">
+                                                    <span class="pull-left">
+                                                        <i class="fa fa-group fa-2x media-object"></i>
+                                                    </span>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Thành viên</h4>
+                                                        <span>4 Công ty</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Event description -->
+                </section>
+                <!-- /SLIDER -->
+            </div>
+            <!-- PAGE ABOUT -->
+            <section class="page-section" id="about">
+                <div class="container">
+                    <div class="col-lg-6">
+                        <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Giới thiệu</span>
+                        </h1>
+                        <div class="row">
+                            <p data-animation="fadeInUp" data-animation-delay="300" style="text-align: justify">Là một công ty hoạt động trong lĩnh vực kinh doanh thiết bị y tế, chúng tôi hiểu rằng, đây là một ngành kinh doanh đặc biệt, có ảnh hưởng trực tiếp đến sức khỏe cũng như tính mạng con người. Do vậy, với mục tiêu bảo vệ sức khỏe người Việt, ngay từ khi thành lập, Y TẾ CƯỜNG MẠNH đã xác định phương châm kinh doanh là mang đến những sản phẩm với chất lượng và dịch vụ tốt nhất. Đây chính là chìa khóa thành công cho Y TẾ CƯỜNG MẠNH và cũng là định hướng để chúng tôi phát triển trong tương lai.</p>
+                            <p class="btn-row">
+                                <a href="about-us.php" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Thông tin chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                                <!-- <a href="https://www.youtube.com/watch?v=dH3v9oOvYs0" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-gal="prettyPhoto" data-animation="flipInY" data-animation-delay="400">Video giới thiệu</a> -->
+                                <!-- <a class="btn btn-play" href="https://www.youtube.com/watch?v=dH3v9oOvYs0" data-gal="prettyPhoto"><i class="fa fa-play"></i></a> -->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" style="padding: 35px 15px;">
+                        <div class="row thumbnails">
+                            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                <iframe style="width: 100%;height: 240px;border-radius: 6px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);" src="https://www.youtube.com/embed/MzEfl5V1Rhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p style="margin-top: 10px;">MÁY LÀM SẠCH KHÔNG KHÍ AIRFREE, SẢN PHẨM ĐỘC QUYỀN <br> Y TẾ CƯỜNG MẠNH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE ABOUT -->
+            <!-- Donation -->
+            <section class="page-section color" style="padding: 30px 0 10px 0;background: url(assets/img/banner/bg.jpg) center center / cover;" id="donation">
+                <div class="container">
+                    <h1 class="section-title">
+                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner" style="color: #fff !important">Giá trị cốt lõi</span>
+                    </h1>
+                    <p>GIẢI PHÁP TOÀN DIỆN, GIÁ TRỊ VỮNG BỀN</p>
+                </div>
+            </section>
+            <!-- /Donation -->
+            <!-- PAGE SCHEDULE -->
+            <div style="background: url(assets/img/banner/m2.jpg) center center / cover;">
+            <?php //include_once 'views/components/member.php'; ?>
+            <!-- /PAGE SCHEDULE -->
+            <section style="background: #0000;" class="page-section" id="price">
+                <div class="container">
+                    <h1 class="section-title clearfix">
+                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner animated flipInY visible"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner animated fadeInRight visible">Thành tựu</span>
+                    </h1>
+                    <div class="row price-tables">
+                        <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
+                            <div style="    background: #fff;" class="price-table animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="100">
+                                <div class="price-table-header">
+                                    <div class="price-label">
+                                        <h2 class="price-label-title">Đối tác</h2>
+                                    </div>
+                                    <div class="price-value">
+                                        <span class="price-number">35</span>
+                                        <span class="price-per"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
+                            <div class="price-table featured animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">
+                                <div class="price-table-header">
+                                    <div class="price-label">
+                                        <h2 class="price-label-title">Khách hàng</h2>
+                                    </div>
+                                    <div class="price-value">
+                                        <span class="price-number">250</span>
+                                        <span class="price-per"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
+                            <div class="price-table animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="300">
+                                <div class="price-table-header">
+                                    <div class="price-label">
+                                        <h2 class="price-label-title">Sản phẩm</h2>
+                                    </div>
+                                    <div class="price-value">
+                                        <span class="price-number">3512</span>
+                                        <span class="price-per"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+            <section class="page-section color" style="padding-top: 20px;padding-bottom: 10px;background: url(assets/img/banner/bg3.jpg) center center / cover;">
+                <div class="container">
+                    <h1 class="section-title">
+                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-comments fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner" style="color: #fff !important">Khách hàng nói gì về chúng tôi <small></small></span>
+                    </h1>
+                    <!-- Testimonials -->
+                    <div id="testimonials" class="owl-carousel testimonials" data-animation="fadeInUp" data-animation-delay="100">
+                        <div class="media testimonial">
+                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                <div class="hex testimonial-avatar">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-deg">
+                                                <div class="hex-inner">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p>Chúng tôi không cần quá nhiều máy móc mà cần những máy công suất xét nghiệm lớn và cho ra độ chính xác cao. Các dòng sản phẩm của Siemens healthineers do công ty Medicom phân phối là một sự lựa chọn tuyệt vời giúp các bác sĩ chúng tôi giải quyết được vấn đề bệnh nhân ngày càng đông như hiện nay</p>
+                                <h4 class="media-heading">Bệnh viện đa khoa tỉnh Quảng Ninh</h4>
+                            </div>
+                        </div>
+                        <div class="media testimonial">
+                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                <div class="hex testimonial-avatar">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-deg">
+                                                <div class="hex-inner">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p>Rất cảm ơn công ty và đội ngũ nhân viên rất nhiệt tình hỗ trợ. Chúng tôi được hỗ trợ lắp đặt tại chỗ, được lắp đặt tận mắt và hướng dẫn sử dụng rất rõ ràng. Hiếm có đơn vị nào nhiệt tính với bệnh viện chúng tôi như vậy </p>
+                                <h4 class="media-heading">Bệnh viện đại học y Hà Nội</h4>
+                            </div>
+                        </div>
+                        <div class="media testimonial">
+                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
+                                <div class="hex testimonial-avatar">
+                                    <div class="hex-deg">
+                                        <div class="hex-deg">
+                                            <div class="hex-deg">
+                                                <div class="hex-inner">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p>Rất cảm ơn Medicom và đội ngũ kinh doanh. Chúng tôi rất ưng sản phẩm và thái độ phục vụ nhân viên. Máy móc rất hiện đại, thật sự rất đáng đầu tư vì liên quan đến tính mạng con người. Các máy móc đều thuận tiện trong việc lắp đặt, nâng cấp, bổ sung máy móc mới.</p>
+                                <h4 class="media-heading">Bệnh Viện Đa khoa Nam Định</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonials -->
+                </div>
+            </section>
 
-                function addFrame() {
-                    var doc = win.document;
-                    var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
-                    if (!otherCMP) {
-                        if (doc.body) {
-                            var iframe = doc.createElement('iframe');
-                            iframe.style.cssText = 'display:none';
-                            iframe.name = TCF_LOCATOR_NAME;
-                            doc.body.appendChild(iframe);
-                        } else {
-                            setTimeout(addFrame, 5);
-                        }
-                    }
-                    return !otherCMP;
-                }
+            <section class="page-section image" id="register" style="padding-top: 20px;padding-bottom: 20px;">
+                <div class="container">
+                    <h1 class="section-title">
+                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Đăng ký nhận tư vấn</span>
+                    </h1>
+                    <form name="registration-form" class="registration-form" action="model/add_register.php" method="post">
+                        <div class="row">
+                            <div class="col-sm-12 form-alert"></div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="form-group" data-animation="fadeInUp" data-animation-delay="200">
+                                    <input type="text" class="form-control input-name" data-toggle="tooltip" name="name" placeholder="Tên của bạn" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="form-group" data-animation="fadeInUp" data-animation-delay="400">
+                                    <input type="text" class="form-control input-email" data-toggle="tooltip" name="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="form-group" data-animation="fadeInUp" data-animation-delay="600">
+                                    <input type="text" name="phone-number" class="form-control input-phone" placeholder="Số điện thoại" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="form-group" data-animation="fadeInUp" data-animation-delay="200">
+                                    <input type="text" class="form-control input-name" data-toggle="tooltip" name="product" placeholder="Tên sản phẩm" />
+                                </div>
+                            </div>
+                            <div class="col-md-12 overflowed">
+                                <div class="text-center margin-top">
+                                    <button class="btn btn-theme btn-theme-xl submit-button" type="submit"> Đăng ký ngay <i class="fa fa-arrow-circle-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
 
-                function tcfAPIHandler() {
-                    var gdprApplies;
-                    var args = arguments;
-                    if (!args.length) {
-                        return queue;
-                    } else if (args[0] === 'setGdprApplies') {
-                        if (
-                            args.length > 3 &&
-                            args[2] === 2 &&
-                            typeof args[3] === 'boolean'
-                        ) {
-                            gdprApplies = args[3];
-                            if (typeof args[2] === 'function') {
-                                args[2]('set', true);
-                            }
-                        }
-                    } else if (args[0] === 'ping') {
-                        var retr = {
-                            gdprApplies: gdprApplies,
-                            cmpLoaded: false,
-                            cmpStatus: 'stub'
-                        };
-                        if (typeof args[2] === 'function') {
-                            args[2](retr);
-                        }
-                    } else {
-                        queue.push(args);
-                    }
-                }
-
-                function postMessageEventHandler(event) {
-                    var msgIsString = typeof event.data === 'string';
-                    var json = {};
-                    try {
-                        if (msgIsString) {
-                            json = JSON.parse(event.data);
-                        } else {
-                            json = event.data;
-                        }
-                    } catch (ignore) {
-                    }
-                    var payload = json.__tcfapiCall;
-                    if (payload) {
-                        window.__tcfapi(
-                            payload.command,
-                            payload.version,
-                            function (retValue, success) {
-                                var returnMsg = {
-                                    __tcfapiReturn: {
-                                        returnValue: retValue,
-                                        success: success,
-                                        callId: payload.callId
-                                    }
-                                };
-                                if (msgIsString) {
-                                    returnMsg = JSON.stringify(returnMsg);
-                                }
-                                event.source.postMessage(returnMsg, '*');
-                            },
-                            payload.parameter
-                        );
-                    }
-                }
-
-                while (win) {
-                    try {
-                        if (win.frames[TCF_LOCATOR_NAME]) {
-                            cmpFrame = win;
-                            break;
-                        }
-                    } catch (ignore) {
-                    }
-                    if (win === window.top) {
-                        break;
-                    }
-                    win = win.parent;
-                }
-                if (!cmpFrame) {
-                    addFrame();
-                    win.__tcfapi = tcfAPIHandler;
-                    win.addEventListener('message', postMessageEventHandler, false);
-                }
-            };
-            if (typeof module !== 'undefined') {
-                module.exports = makeStub;
-            } else {
-                makeStub();
-            }
-            var uspStubFunction = function () {
-                var arg = arguments;
-                if (typeof window.__uspapi !== uspStubFunction) {
-                    setTimeout(function () {
-                        if (typeof window.__uspapi !== 'undefined') {
-                            window.__uspapi.apply(window.__uspapi, arg);
-                        }
-                    }, 500);
-                }
-            };
-            var checkIfUspIsReady = function () {
-                uspTries++;
-                if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
-                    console.warn('USP is not accessible');
-                } else {
-                    clearInterval(uspInterval);
-                }
-            };
-            if (typeof window.__uspapi === 'undefined') {
-                window.__uspapi = uspStubFunction;
-                var uspInterval = setInterval(checkIfUspIsReady, 6000);
-            }
-        })();
-    </script> 
-  <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) --> 
-  <link rel="canonical" href="https://www.rolex.com/vi"> 
-  <link rel="alternate" hreflang="X-Default" href="https://www.rolex.com"> 
-  <link rel="alternate" hreflang="en" href="https://www.rolex.com"> 
-  <link rel="alternate" hreflang="fr" href="https://www.rolex.com/fr"> 
-  <link rel="alternate" hreflang="de" href="https://www.rolex.com/de"> 
-  <link rel="alternate" hreflang="it" href="https://www.rolex.com/it"> 
-  <link rel="alternate" hreflang="zh-Hans" href="https://www.rolex.cn"> 
-  <link rel="alternate" hreflang="zh-Hant" href="https://www.rolex.cn/zh-hant"> 
-  <link rel="alternate" hreflang="ja" href="https://www.rolex.com/ja"> 
-  <link rel="alternate" hreflang="es" href="https://www.rolex.com/es"> 
-  <link rel="alternate" hreflang="pt-br" href="https://www.rolex.com/pt_br"> 
-  <link rel="alternate" hreflang="ko" href="https://www.rolex.com/ko"> 
-  <link rel="alternate" hreflang="ru" href="https://www.rolex.com/ru"> 
-  <link rel="alternate" hreflang="ar" href="https://www.rolex.com/ar"> 
-  <link rel="alternate" hreflang="tr" href="https://www.rolex.com/tr"> 
-  <link rel="alternate" hreflang="id" href="https://www.rolex.com/id"> 
-  <link rel="alternate" hreflang="th" href="https://www.rolex.com/th"> 
-  <link rel="alternate" hreflang="fa" href="https://www.rolex.com/fa"> 
-  <link rel="alternate" hreflang="nl" href="https://www.rolex.com/nl"> 
-  <link rel="alternate" hreflang="vi" href="https://www.rolex.com/vi"> 
-  <link rel="alternate" hreflang="hi" href="https://www.rolex.com/hi"> 
-  <link rel="alternate" hreflang="pl" href="https://www.rolex.com/pl"> 
-  <link rel="alternate" hreflang="he" href="https://www.rolex.com/he"> 
-  <link rel="alternate" hreflang="ms" href="https://www.rolex.com/ms">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta property="cq:pagemodel_root_url" content="/rolex.model.root.json"> 
-  <script src="/etc.clientlibs/clientlibs/rolex/aem/newrelic.min.js"></script> 
-  <link rel="preload" href="https://static.rolex.com/Fonts/Rolex/HelveticaNow/10d97c98-c7f0-4958-b294-92319d027783.woff2" as="font" type="font/woff2" crossorigin="anonymous"> 
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_558x558.jpg" sizes="558x558" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_558x270.jpg" sizes="558x270" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_270x270.jpg" sizes="270x270" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_228x228.jpg" sizes="228x228" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_196x196.jpg" sizes="196x196" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_195x195.jpg" sizes="195x195" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_180x180.jpg" sizes="180x180" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_152x152.jpg" sizes="152x152" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_144x144.jpg" sizes="144x144" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_128x128.jpg" sizes="128x128" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_120x120.jpg" sizes="120x120" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_96x96.jpg" sizes="96x96" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_76x76.jpg" sizes="76x76" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_57x57.jpg" sizes="57x57" type="image/jpg">
-  <link rel="apple-touch-icon-precomposed" href="/content/dam/rolex/site-icons/rolex_fav_icon_32x32.jpg" sizes="32x32" type="image/jpg">
-  <link rel="shortcut icon" href="/content/dam/rolex/site-icons/rolex_fav_icon_32x32.jpg" sizes="32x32" type="image/jpg">
-  <link href="https://smetrics.rolex.com" rel="preconnect" crossorigin="">
-  <link href="//fast.fonts.net" rel="preconnect" crossorigin="">
-  <link href="//fonts.googleapis.com" rel="preconnect" crossorigin="">
-  <link href="//csi.gstatic.com" rel="preconnect" crossorigin="">
-  <link href="//fonts.gstatic.com" rel="preconnect" crossorigin="">
-  <link href="//js-agent.newrelic.com" rel="preconnect" crossorigin="">
-  <link href="//bam.nr-data.net" rel="preconnect" crossorigin="">
-  <link href="//assets.adobedtm.com" rel="preconnect" crossorigin="">
-  <link href="//amp.akamaized.net" rel="preconnect" crossorigin="">
-  <link href="https://static.rolex.com" rel="preconnect" crossorigin="">
- 
-<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-7151686e-f3e2-4ef7-b5e8-5d13bb1bb18e","rua.cook":"true","rua.ims":"true","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
-                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="N4HWS-SBBWG-GNHLM-55VCH-EZLBP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"N4HWS-SBBWG-GNHLM-55VCH-EZLBP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="false"=="true"?1:0,t="cookiepresent",n="m4jwgbqxfkxweyjavq4q-f-bc6f5c7d1-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"32","ak.cp":"822074","ak.ai":parseInt("193520",10),"ak.ol":"0","ak.cr":477,"ak.ipv":4,"ak.proto":"h2","ak.rid":"8c48f0ce","ak.r":37079,"ak.a2":e,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"103.19.99.0","ak.cport":1719,"ak.gh":"23.40.241.60","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1629531193","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Wegf/FYmp4KN7z8hCOC/SB3E4DmU07BQ7iOg7tOTrHmYS83uagnFG8VNNLqUG+fV2jKhiictaqxzF61kYiBGCzKu4e1mLaWT6qwgZ4RK6vAF3CTu11/kYaaX0l2ul83eUl0xEQJvaJv9BXULAY6sWzvm60rMsyxqluk8Oq1OQAkv+KFASgcd8Ig2Q1TZIUCU/d7EtsajoYEkw10Pe/LQbIdYyPUmrz8vS9KvtOy1gMPp/qTcqCwgIdf8L04G/07fJmuYaouxAcyyTpj7gZ5QhppBHoIXWkb5toPXzxnv61hlDtsvM3/wW+IrJzQM9Mzvtr/UODmP6963bcYiFyDdVVMzsjSjquL8iPhaDRP3R49gupSXasuzg3l16Ry7umIwAH4V08Fc7LaMhVWQYsrkyIw7M8Dtv+6+qy0rIFUtQi8=","ak.pv":"323","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><style type="text/css"> .qc-cmp-button {    background-color: #127749 !important;    border-color: #127749 !important;  }  .qc-cmp-button:hover {    border-color: #127749 !important;  }  .qc-cmp-alt-action,  .qc-cmp-link {    color: #127749 !important;  }  .qc-cmp-button.qc-cmp-secondary-button:hover {    background-color: #127749 !important;    border-color: #127749 !important;  }  .qc-cmp-button {    color: #fff !important;  }  .qc-cmp-button.qc-cmp-secondary-button:hover {    color: #fff !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    color: #127749 !important;  }  .qc-cmp-button.qc-cmp-secondary-button {    background-color: #eee !important;    border-color: transparent !important;  }  .qc-cmp-ui,  .qc-cmp-ui .qc-cmp-title,  .qc-cmp-ui .qc-cmp-table,  .qc-cmp-ui .qc-cmp-messaging,  .qc-cmp-ui .qc-cmp-sub-title,  .qc-cmp-ui .qc-cmp-vendor-list,  .qc-cmp-ui .qc-cmp-purpose-info,  .qc-cmp-ui .qc-cmp-table-header,  .qc-cmp-ui .qc-cmp-beta-messaging,  .qc-cmp-ui .qc-cmp-main-messaging,  .qc-cmp-ui .qc-cmp-vendor-list-title{    color: #212121 !important;  }  .qc-cmp-ui a,  .qc-cmp-ui .qc-cmp-alt-action {    color: #127749 !important;  }  .qc-cmp-small-toggle.qc-cmp-toggle-on,  .qc-cmp-toggle.qc-cmp-toggle-on {    background-color: #127749!important;    border-color: #127749!important;  } #qc-cmp2-ui .qc-cmp2-summary-section { padding-top: 0;}#qc-cmp2-ui .qc-cmp2-summary-section img,#qc-cmp2-ui .qc-cmp2-publisher-logo-container figure img { margin-bottom: 3vw; max-height: 50px; margin-top: 3vw;}#qc-cmp2-ui .qc-cmp2-summary-section h2 { font-family: RolexFont-S, RolexFont, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase; line-height: 38px;}#qc-cmp2-ui .qc-cmp2-summary-info { max-width: 600px; text-align: center; padding-bottom: 3vw; font-size: 14px; line-height: 20px;}#qc-cmp2-ui .qc-cmp2-summary-info p { font-size: 14px; line-height: 20px;}@media (max-width: 360px) { .jpjIYc.jpjIYc .qc-cmp2-summary-section .qc-cmp2-summary-info.qc-cmp2-logo-displayed { max-height: 60vh; }}#qc-cmp2-ui .qc-cmp2-summary-buttons { flex-direction: row-reverse; display: flex; justify-content: center; outline: none;}#qc-cmp2-ui .qc-cmp2-footer { flex-direction: row;}#qc-cmp2-ui .qc-cmp2-consent-info *,#qc-cmp2-ui .qc-cmp2-summary-section *,#qc-cmp2-ui .qc-cmp2-scrollable-section *,#qc-cmp2-ui .qc-cmp2-footer * { font-family: 'Helvetica Now Text', 'Helvetica';}#qc-cmp2-ui .qc-cmp2-footer-links { justify-content: center; align-items: center;}@media (max-width: 768px) { #qc-cmp2-ui .qc-cmp2-footer-links { margin-top: 40px; }}#qc-cmp2-ui .qc-cmp2-footer-links button { color: #212121; padding: 0 15px; min-height: auto; height: fit-content;}#qc-cmp2-ui .qc-cmp2-footer-links button:last-of-type { border-left: 1px solid #a6a9ae; margin: 0;}#qc-cmp2-ui .qc-cmp2-summary-buttons button,#qc-cmp2-ui .qc-cmp2-buttons-desktop button,#qc-cmp2-ui .qc-cmp2-hide-desktop { font-size: 12px; border-radius: 1.875rem; flex: none; height: 38px; padding: 0.6875rem 1.875rem; line-height: 1; letter-spacing: 0; min-width: auto; width: auto; margin: 0 5px 0 0; outline: none; order: inherit;}#qc-cmp2-ui .qc-cmp2-home-button img { display: none;}#qc-cmp2-ui .qc-cmp2-home-button::before { content: ' '; display: inline-block; background: url("data:image/svg+xml,<?xml version='1.0' encoding='UTF-8'?> <svg width='8px' height='12px' viewBox='0 0 8 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'> <!-- Generator: Sketch 63.1 (92452) - https://sketch.com --> <title>Icons/angle-left</title> <desc>Created with Sketch.</desc> <defs> <path d='M7.43471219,6.3983597 L1.93072666,11.8347979 C1.71112791,12.0550674 1.35603207,12.0550674 1.13643333,11.8347979 L0.804699058,11.5020504 C0.585100314,11.2817809 0.585100314,10.9256005 0.804699058,10.705331 L5.58447597,6 L0.809371371,1.29466901 C0.589772628,1.07439953 0.589772628,0.718219098 0.809371371,0.497949619 L1.14110564,0.165202109 C1.36070439,-0.0550673697 1.71580023,-0.0550673697 1.93539897,0.165202109 L7.43938451,5.6016403 C7.65431094,5.82190978 7.65431094,6.17809022 7.43471219,6.3983597 Z' id='path-1'></path> <rect id='path-3' x='0' y='0' width='12' height='12'></rect> </defs> <g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'> <g id='all-vendors-' transform='translate(-362.000000, -342.000000)'> <g id='Icons/angle-left' transform='translate(362.000000, 342.000000)'> <mask id='mask-2' fill='white'> <use xlink:href='%23path-1'></use> </mask> <use id='Mask' fill='%23000000' fill-rule='nonzero' xlink:href='%23path-1'></use> <g id='Icon-Color' mask='url(%23mask-2)'> <g transform='translate(-2.000000, 0.000000)'> <mask id='mask-4' fill='white'> <use xlink:href='%23path-3'></use> </mask> <use id='Bg.-Color' stroke='none' fill='%23127749' fill-rule='evenodd' xlink:href='%23path-3'></use> </g> </g> </g> </g> </g> </svg>") no-repeat; width: 12px; height: 12px; margin-right: 5px; transform: rotate(180deg);}#qc-cmp2-ui .qc-cmp2-toggle-legal-button::before { background: url("data:image/svg+xml,<svg width='5' height='10' viewBox='0 0 5 10' fill='none' xmlns='http://www.w3.org/2000/svg'> <path d='M5 4.5L0.5 0L0.5 9L5 4.5Z' fill='%23127749'/> </svg>") no-repeat;}</style><style data-styled="active" data-styled-version="5.1.1"></style><meta property="cq:pagemodel_router" content="disabled"><script src="https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement.min.js" async=""></script><script src="https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script src="https://assets.adobedtm.com/7e3b3fa0902e/31e0d7259e89/ed7f5600af1a/RCc060fbe4d7bb4d90874250d78b827834-source.min.js" async=""></script><script src="https://assets.adobedtm.com/7e3b3fa0902e/31e0d7259e89/ed7f5600af1a/RC1626b855efee44e69ee02773bd2ff768-source.min.js" async=""></script><link href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=3fadd8a3-dbcb-4cce-bb01-f72c00230171" rel="stylesheet" media="all"><script type="text/javascript" async="" src="https://static.rolex.com/cs_rolex_trk/cs_rolexcom_prod.js"></script></head>                            
- <body class="page-home page basicpage"><div id="header"><div class="sc-fzoJus gPIkNu" style="transform: translateY(0px) translateZ(0px);"><div id="skipLinks" tabindex="-1" class="sc-pjstK jsIEAM"><a href="#maincontent" class="sc-prorn fpBoEr">Chuyển tới nội dung chính</a><a href="#footer" class="sc-prorn fpBoEr">Chuyển tới chân trang</a></div><header role="banner" class="sc-fzoVTD Atfvz" style="background-color: rgb(255, 255, 255); height: 60px;"><div class="sc-fznXWL cEvDCP"><div class="sc-fzoxnE GqMIW"><button type="button" aria-label="Danh mục" class="sc-fzoMdx uYzkI" style="color: rgb(0, 0, 0);"><div class="sc-fzplgP bHmBtJ"><span class="sc-fznzqM kcMtBa" style="background-color: rgb(0, 0, 0);"></span><span class="sc-fznzqM kcMtBa" style="background-color: rgb(0, 0, 0);"></span></div><span class="sc-fzoWqW cdKMsY">Danh mục</span></button></div><div class="sc-fznOgF glfmCu" style="color: rgb(0, 0, 0);"><a class="sc-fzonjX hIMiPJ" href="/vi/watches.html"><span class="sc-fzqzEs eVQcHf">Đồng hồ</span></a><a class="sc-fzonjX hIMiPJ" href="/vi/world-of-rolex.html"><span class="sc-fzqzEs eVQcHf">Thế giới Rolex</span></a><a class="sc-fzonjX hIMiPJ" href="/vi/rolex-dealers/vietnam.html"><span class="sc-fzqzEs eVQcHf">Định vị cửa hàng</span></a></div></div><div class="sc-fzokvW lowIgj"><a aria-label="Rolex - Đi đến Trang chủ" class="sc-fzqzlV gMJRj" href="/vi"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 59" aria-hidden="true" alt="" height="35px"><path d="M39.4,10.7c0.2,0,0.3,0,0.4-0.1L45,28h0c0.6,1.9,3.4,3.4,6.8,3.4c3.4,0,6.2-1.5,6.8-3.4h0l5.1-17.4c0.1,0,0.3,0,0.4,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.7,0.4,1.3,1,1.6l-5.9,12.7l1-17.1c0,0,0,0,0,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.8,0.6,1.5,1.3,1.7l-3.9,16.7L52,4.3c0.9-0.1,1.5-0.9,1.5-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.9,0.7,1.7,1.5,1.8l-1.9,18.4L45.7,6C46.5,5.8,47,5.1,47,4.3c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8c0,0,0,0,0,0l1,17.1l-5.9-12.7c0.6-0.3,1-0.9,1-1.6c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8C37.6,9.9,38.4,10.7,39.4,10.7z M51.8,26.5c3.1,0,5.6,0.8,5.6,1.8c0,1-2.5,1.8-5.6,1.8c-3.1,0-5.6-0.8-5.6-1.8C46.1,27.3,48.7,26.5,51.8,26.5z" fill="rgba(163, 126, 44, 1)"></path><g fill="rgba(0, 96, 57, 1)"><path d="M19.6,55.2l-1.1-3.3c-0.5-1.5-0.9-2.1-1.7-2.9c-0.5-0.5-1.3-0.7-1.9-0.9c2.1-0.3,3.7-2.2,3.7-4.4c0-2.4-2-4.4-4.4-4.4c0,0-0.1,0-0.1,0v0H7.4h-4H1v1.3h2.4v14.6H0.9v1.3h6.4l0,0h2.5v-1.3H7.4v-7h1.9c0.1,0,0.1,0,0.2,0h0.4c0.6,0,1.1,0.1,1.6,0.2c0.4,0.1,0.9,0.3,1.2,0.5c0.4,0.3,0.9,0.7,1.3,1.3c0.1,0.2,0.2,0.4,0.3,0.5c0.7,1.4,1.2,3.3,1.7,5.7h3v0h2.7v-1.3L19.6,55.2L19.6,55.2z M11.6,46.9H7.4v-6.3h4.2c1.8,0.1,3.2,1.3,3.2,3.1S13.4,46.8,11.6,46.9z"></path><path d="M31.9,38.7c-5.2,0-9.3,4.2-9.3,9.2c0,5,4.2,9.2,9.3,9.2c5.2,0,9.3-4.2,9.3-9.2C41.2,42.9,37.1,38.7,31.9,38.7zM35.8,53.2c-0.3,0.4-0.7,0.8-1.1,1.1c-0.7,0.5-1.5,0.9-2.3,0.9c-0.2,0-0.3,0-0.5,0c-0.2,0-0.3,0-0.5,0c-0.8,0-1.6-0.4-2.3-0.9c-0.4-0.3-0.8-0.7-1.1-1.1c-1-1.3-1.6-3.2-1.6-5.3c0-2,0.5-3.7,1.4-5.1c0.5-0.9,1.2-1.6,2.2-2c0,0,0,0,0,0c0,0,0.1,0,0.1-0.1c0.1-0.1,0.2-0.1,0.4-0.1c0.4-0.1,0.9-0.2,1.3-0.2c0.5,0,0.9,0.1,1.3,0.2c0.1,0,0.3,0.1,0.4,0.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0.9,0.4,1.7,1.1,2.2,2c0.9,1.3,1.4,3.1,1.4,5.1C37.4,50,36.8,51.9,35.8,53.2z"></path><path d="M59.7,49.8h-1.3v2.6c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4h-1.5V40.6h2.5v-1.3h-2.5l0,0h-0.3h-6.2v1.3h2.5v14.6h-2.5v1.3h14.9h1.1h0.1h0.1v0h0v-4.2h0V49.8z"></path><path d="M79.5,39.4L79.5,39.4h-0.1h-4H62.5v1.3h2.5v14.6h-2.5v1.3v0h12.9h2.9h1.1h0.1h0h0.1v-4.2v-1.9h-1.3v2l0,0c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4.6v0H69h-0.1v-7V48h1.3c0,0,0,0,0,0H71l0,0c1.2,0,2.1,1,2.1,2.1c0,0,0,0,0,0h0v0.7l0,0v0.3h1.2V51V48v0v-1.1v0V44v-0.1h-1.2v0.8h0c0,0,0,0,0,0c0,1.2-0.9,2-2.1,2l0,0h-0.8h-0.8h-0.5v-6.2H69h3.7c0,0,0,0,0.1,0h2.6c1.6,0,2.8,1.3,2.9,2.8l0,0v1.8h1.3v-1.7L79.5,39.4L79.5,39.4L79.5,39.4z"></path><path d="M101.8,55.3c-1.2,0-1.5-0.4-2.5-1.5l-5.7-7.1l3.8-4.5v0c1-1.2,1.3-1.6,2.6-1.6h0.8h0.2v-1.3h-0.2H97h-0.2h-2.7H94v1.3h0.2h1.4v0c0,0,0,0,0,0c0.3,0,0.6,0.3,0.6,0.6c0,0.1,0,0.2-0.1,0.3l-3.3,4L90,42.3l-0.5-0.7c-0.1-0.1-0.1-0.2-0.1-0.4c0-0.3,0.3-0.6,0.6-0.6h1.5v-1.3h-2.7h-3.9h-2.1v1.3h0.4c1.1,0.1,1.4,0.4,2.3,1.4l5,6.3L86,53.7v0c-1,1.2-1.3,1.6-2.6,1.6h-0.8h-0.3v1.3h0.3h4.3h0.3h2.3h0.3v-1.3h-0.3h-1.6v0c0,0,0,0,0,0c-0.3,0-0.6-0.3-0.6-0.6c0-0.1,0.1-0.3,0.1-0.4l4-4.8l3.3,4.2l0.5,0.6c0.1,0.1,0.1,0.2,0.1,0.4c0,0.3-0.3,0.6-0.6,0.6c0,0,0,0,0,0l0,0h-1.6v1.3h0v0h9.3v-1.3L101.8,55.3L101.8,55.3z"></path></g></svg></a></div><div class="sc-fzqLLg kCMTKY"><div class="sc-fzqOul lmumJh"><button title="Tìm kiếm" type="button" class="sc-fzoCCn lewZOv" style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"><svg aria-labelledby="search-picto" height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" class="sc-fzoPby cSPfCG icon" name="search" aria-hidden="true" alt=""><title id="search-picto">Tìm kiếm</title><path d="m15 13.6-4.1-4.1c.7-1 1.1-2.2 1.1-3.5 0-3.3-2.7-6-6-6s-6 2.7-6 6 2.7 6 6 6c1.3 0 2.5-.4 3.5-1.1l4.1 4.1zm-9-3.6c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z" id="search"></path></svg><span class="sc-fzpdbB gZFNLC">Tìm kiếm</span></button></div><div class="sc-fzqOul lmumJh"><button title="Bộ sưu tập của bạn" type="button" aria-live="polite" class="sc-fzoCCn lewZOv" style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"><div class="sc-fzppAM vTcAG" style="opacity: 0; transform: translateX(calc(-100% + 32px)) translateZ(0px); position: absolute; left: 0px; right: auto;"><div class="sc-fznBtT ccaska"><div class="sc-fznNTe fnbSrb" style="transform: translateY(0px) translateZ(0px);"></div></div></div><svg aria-labelledby="wishlist-picto" height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="sc-fzoPby cSPfCG"><title id="search-picto">Bộ sưu tập của bạn</title><path d="m13.62 2.05c-.9-1.01-2.18-1.59-3.5-1.59-1.09 0-1.96.32-2.62.75-.66-.43-1.53-.75-2.62-.75-1.31 0-2.6.58-3.52 1.59-.99 1.08-1.47 2.54-1.34 4 .24 2.6 2.79 5.67 6.66 8l.81.49.81-.49c3.87-2.33 6.42-5.39 6.66-8 .14-1.46-.35-2.92-1.34-4zm-.69 3.99c-.17 1.88-2.31 4.36-5.44 6.25-3.12-1.88-5.27-4.36-5.44-6.25-.18-1.89 1.26-3.57 3.02-3.57s2.43 1.28 2.43 1.28.64-1.28 2.41-1.28 3.2 1.68 3.02 3.57z"></path></svg><span class="sc-fzpdbB gZFNLC">Bộ sưu tập của bạn</span></button></div></div></header><div class="sc-fznyYp kdOAmQ" style="opacity: 1; transform: translateY(0px) translateZ(0px);"><div class="sc-fznLxA gQRraV" style="opacity: 1; transform: translateY(0px) translateZ(0px);"></div><nav aria-label="Thanh điều hướng" class="sc-qXhiz gIFzlY" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); fill: rgb(0, 0, 0); pointer-events: none; font-size: 0rem; transform: translateY(-100%) translateZ(0px); padding-top: 0px; padding-bottom: 0px;"><ul class="sc-pzYib cVYBFK"></ul></nav></div></div></div> 
-  <div id="page"> <div class="sc-fzowVh dUHeBf"><div><div class="sc-AxhUy kVhtDy swipe-down" aria-hidden="true" role="dialog" aria-modal="false"><span aria-hidden="true" tabindex="0" class="sc-fzqMdD fZQoNm"></span><button type="button" class="sc-AxiKw grzxDR sc-AxhCb gYNxVI sc-AxheI eFYDH" aria-label="Đóng cửa sổ" tabindex="0"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="hsl(0,0%,100%)" role="img" aria-hidden="true" alt=""><path d="m8.9 7.5 6.1 6.1-1.4 1.4-6.1-6.1-6.1 6.1-1.4-1.4 6.1-6.1-6.1-6.1 1.4-1.4 6.1 6.1 6.1-6.1 1.4 1.4z"></path></svg></span></button><div class="sc-AxgMl cVmQYF"></div><span aria-hidden="true" tabindex="0" class="sc-fzqMdD fZQoNm"></span></div></div><div><div class="aem-page page "><div><div class="aem-container aem-Grid aem-Grid--12 aem-Grid--default--12"><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="aem-container undefined"><div class=""><div class="aem-container aem-Grid aem-Grid--12 aem-Grid--default--12"><div class=" aem-GridColumn aem-GridColumn--default--12"><div></div></div></div><div></div></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div id="maincontent"></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="aem-container undefined"><div class=""><div class="aem-container aem-Grid aem-Grid--12 aem-Grid--default--12"><div class=" aem-GridColumn aem-GridColumn--default--12"><div></div></div></div><div></div></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="aem-container aem-Grid aem-Grid--12 aem-Grid--default--12"><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr kwqeQc"><section class="sc-ptdsS gaCEME"><a aria-label="DATEJUST ĐỒNG HỒ BIỂU TƯỢNG CỦA PHONG CÁCH CỔ ĐIỂN undefined" tabindex="0" class="sc-fzpans hCWFzk" href="/vi/watches/datejust.html"><div class="sc-qYsuA jDsubJ"><div class="sc-oUDcU cnVYtu"><div class="sc-qPLKk dtYqxP image-poster"><picture id="image-poster_e431f46bb1e8defb205e3040e6e86eaaf985d4063041f3d0f296231b0f1b9376" class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe_portrait.jpg?imwidth=420&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe_portrait.jpg?imwidth=840&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe_portrait.jpg?imwidth=767&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe_portrait.jpg?imwidth=1534&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe.jpg?imwidth=1112&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe.jpg?imwidth=1668&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe.jpg?imwidth=1920&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039-posterframe.jpg?imwidth=2880&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:1113px)"><img alt="Day-Date 40" loading="lazy" class="sc-fzozJi dteCCc"></picture></div><video src="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/datejust/datejust-36/m126233-0039/homepage-datejust-36-m126233-0039.mp4" type="video/mp4" autoplay="" playsinline="" loop="" preload="auto" class="sc-pczax hJdRYq"></video><div class="sc-pktCe didHoy"></div></div></div></a><div class="sc-pCPXO fNcIRv"><div class="sc-pKMan cUYupI"><div class="sc-pcZJD fuyCZW"></div><div color="#ffffff" id="text_982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1" class="sc-fznMAR doAxpn"><h1 size="100" class="sc-fzqARJ lgXjlX">DATEJUST</h1><h2 class="sc-fzoXWK hnKkAN">ĐỒNG HỒ BIỂU TƯỢNG CỦA PHONG CÁCH CỔ ĐIỂN</h2></div></div></div>)</section></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr iDgVrU"><section class="sc-pzXPE fleKVa"><div class="sc-pQQXS kXCYay"><p class="sc-pZopv hsiQUJ">ĐỒNG HỒ ROLEX ĐƯỢC CHẾ TÁC TỪ CÁC NGUYÊN LIỆU TỐT NHẤT VÀ LẮP RÁP TỈ MỈ ĐẾN TỪNG CHI TIẾT.</p><a class="sc-fzpans hCWFzk" href="/vi/watches/find-rolex.html"><p class="sc-fznxsB cUWXFh"><span class="sc-oUnPI uhiju">Khám phá bộ sưu tập đồng hồ uy tín của Rolex với độ chính xác vượt trội. Rolex cung cấp đa dạng mẫu đồng hồ Oyster Perpetual và Cellini phù hợp với mọi cổ tay. Khám phá hàng loạt mẫu đồng hồ Rolex để tìm ra sự kết hợp hoàn hảo giữa phong cách và tính năng ưu việt.</span></p></a><div class="sc-pIvhh jhbEJG"><a aria-label="Tìm đồng hồ" themename="alpha" class="sc-AxiKw gbIgHt sc-pcLhl bMMcvF" href="/vi/watches/find-rolex.html"><span class="sc-fzoKki sc-fzpkJw hctKJM">Tìm đồng hồ</span></a><a aria-label="Cấu hình đồng hồ" themename="alpha" class="sc-AxirZ knyrZK sc-pcLhl bMMcvF" href="/vi/watches/configure.html"><span class="sc-fzoKki sc-fzpkJw hctKJM">Cấu hình đồng hồ</span></a></div></div></section></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr hIXvMI"><div type="roller" class="sc-pTWqp fdmyzY"><div type="roller" class="sc-qOjXG eQihqJ"><h3 type="roller" class="sc-fznxKY kfRyXm sc-qWgaf lopEVc">Đồng hồ Rolex</h3><span class="sc-plVjM cbtwxK"><span class="sc-AxjAm oUQss"><svg height="11" width="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""><path d="m0 6.5v-1h11v1z"></path></svg></span></span><a aria-label="Xem tất cả" themename="alpha" class="sc-AxirZ knyrZK" href="/vi/watches.html"><em class="sc-fzoKki sc-fzpkJw sc-pLwIe edWcep">Xem tất cả</em></a></div><div class="sc-qcrrk esLljD"><ul type="roller" class="sc-oVpqz fPaKFt sc-paWVw irLZCU"><li class="sc-puFaA eUggJm" type="roller" id="carolitem-0"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/datejust.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">DATEJUST</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Đồng hồ biểu tượng của phong cách cổ điển</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-1"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/oyster-perpetual.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">OYSTER PERPETUAL</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Khí chất Oyster</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-2"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/explorer.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">EXPLORER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Tiếng gọi từ đỉnh núi</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-3"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/sky-dweller.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">SKY-DWELLER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Theo dõi thời gian trên khắp thế giới</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-4"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/gmt-master-ii.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">GMT-MASTER II</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Mẫu đồng hồ cosmopolitan</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-5"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/day-date.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">DAY-DATE</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Chiếc đồng hồ tiêu biểu của uy tín</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-6"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/cosmograph-daytona.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">COSMOGRAPH DAYTONA</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Sinh ra để đua</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-7"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/yacht-master.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">YACHT-MASTER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Chiếc đồng hồ của biển cả bao la</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-8"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/lady-datejust.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">LADY-DATEJUST</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Thanh lịch duyên dáng</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-9"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/submariner.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">SUBMARINER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Chuẩn mực đồng hồ của thợ lặn</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-10"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/sea-dweller.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">SEA-DWELLER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Chiếc đồng hồ chinh phục độ sâu</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-11"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/milgauss.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">MILGAUSS</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Vinh danh khoa học</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-12"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/cellini.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">CELLINI</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Đồng hồ cổ điển</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-13"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/pearlmaster.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">PEARLMASTER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Viên ngọc quý trong bộ sưu tập Oyster</span></figcaption></figure></a></div></div><div></div></div></li><li class="sc-puFaA eUggJm" type="roller" id="carolitem-14"><div><div class="sc-Axmtr kwqeQc"><div class="sc-pQEyH hTFzds animated"><a label="Tìm hiểu thêm" class="sc-fzpans hCWFzk" href="/vi/watches/air-king.html"><figure role="img" class="sc-pYBma cGzjAr"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king_portrait.jpg?imwidth=184, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king_portrait.jpg?imwidth=368 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king_portrait.jpg?imwidth=320, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king_portrait.jpg?imwidth=640 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=430, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=430 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=550, https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=550 2x" media="(min-width:1113px)"><img alt="" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">AIR-KING</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Niềm tôn kính với ngành hàng không</span></figcaption></figure></a></div></div><div></div></div></li></ul><div type="roller" class="sc-pIJmg kUUtjf" style="width: 90%; opacity: 0; visibility: hidden;"><button type="button" tabindex="-1" class="sc-AxiKw igQLUq sc-pZCuu cdhLSp" aria-label="Previous Slide"><span class="sc-AxjAm jxKTHZ"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""><path d="m9.48 15-7.91-7.5 7.91-7.5 1.95 1.95-5.83 5.55 5.83 5.55z"></path></svg></span></button><button type="button" tabindex="-1" class="sc-AxiKw igQLUq sc-pRFHb iDqeRm hidden" aria-label="Next Slide"><span class="sc-AxjAm jxKTHZ"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""><path d="m5.52 0 7.91 7.5-7.91 7.5-1.95-1.95 5.83-5.55-5.83-5.55z"></path></svg></span></button></div></div><div class="sc-qOvHb bQbIPe scroller"><div class="sc-qWQHW ilgnDd"></div><div class="sc-pAMyN htsySg" style="left: 74.6187%; width: 25.3813%;"></div></div></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr kwqeQc"><section class="sc-ptdsS ceNWWm" style="height: 631.875px;"><a aria-label="RÈN LUYỆN HƯỚNG TỚI SỰ VĨ ĐẠI undefined Tìm hiểu thêm" themename="epsilon" tabindex="-1" label="Tìm hiểu thêm" class="sc-AxiKw hSnDax" href="/vi/world-of-rolex/tennis/alexander-zverev.html"><div class="sc-qYsuA jDsubJ"><div class="sc-oUDcU cnVYtu"><div class="sc-qPLKk dtYqxP image-poster"><picture id="image-poster_e431f46bb1e8defb205e3040e6e86eaaf985d4063041f3d0f296231b0f1b9376" class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe_portrait.jpg?imwidth=420&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe_portrait.jpg?imwidth=840&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe_portrait.jpg?imwidth=767&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe_portrait.jpg?imwidth=1534&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe.jpg?imwidth=1112&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe.jpg?imwidth=1668&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe.jpg?imwidth=1920&amp;impolicy=v6-overlayed&amp;qual=low, https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev-posterframe.jpg?imwidth=2880&amp;impolicy=v6-overlayed&amp;qual=low 2x" media="(min-width:1113px)"><img alt="homepage-tennis-alexander-zverev poster" loading="lazy" class="sc-fzozJi dteCCc"></picture></div><video src="https://content.rolex.com/dam/homepage/hss/world-of-rolex/tennis/alexander-zverev/homepage-tennis-alexander-zverev.mp4" type="video/mp4" autoplay="" playsinline="" loop="" preload="auto" class="sc-pczax hJdRYq"></video><div class="sc-pktCe didHoy"></div></div></div></a><div class="sc-pCPXO kpGtBU"><div class="sc-pKMan bpSAOq"><div class="sc-pcZJD fuyCZW"></div><div color="#ffffff" id="text_982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1" class="sc-fznMAR dVZmQd"><span class="sc-fznxKY sc-fzqPZZ gLiaon">Alexander Zverev</span><h2 size="100" class="sc-fzqARJ lgXjlX">RÈN LUYỆN HƯỚNG TỚI SỰ VĨ ĐẠI</h2><div class="sc-fzolEj jJAzoG"><a aria-label="Tìm hiểu thêm" themename="epsilon" class="sc-AxiKw hSnDax" href="/vi/world-of-rolex/tennis/alexander-zverev.html"><span class="sc-fzoKki sc-fzpkJw hctKJM">Tìm hiểu thêm</span></a></div></div></div></div>)</section></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr fIVubX"><div offset="1" id="editorialGrid_9f9e9861faf3dd07c2d2f166e5e8b949676ba29b70f1f0fb9e52e5d1f87be7f2" class="sc-fzplWN ejdPUz"><p class="sc-fznxKY sc-qXFOy hZbUVv">Khám phá Rolex</p><ul class="sc-qPIWj jZdprZ"><li class="sc-pQEyH hTFzds animated"><a class="sc-fzpans hCWFzk" href="/vi/watches/new-watches/dials.html"><figure role="img" class="sc-pYBma kxXGmZ"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071_portrait.jpg?imwidth=380, https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071_portrait.jpg?imwidth=760 2x" media="(max-width:420px)"><source srcset="https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071_portrait.jpg?imwidth=720, https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071_portrait.jpg?imwidth=720 2x" media="(min-width:421px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071.jpg?imwidth=900, https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071.jpg?imwidth=1350 2x" media="(min-width:768px) and (max-width:1112px)"><source srcset="https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071.jpg?imwidth=1350, https://content.rolex.com/dam/homepage/grid/watches/exclusive-dials/homepage-exclusive-dials_wmdial_m126233-0039_2102cw_0071.jpg?imwidth=1920 2x" media="(min-width:1113px)"><img alt="MẶT ĐỒNG HỒ ĐỘC QUYỀN VỚI THIẾT KẾ ĐỘC ĐÁO" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">MẶT ĐỒNG HỒ ĐỘC QUYỀN VỚI THIẾT KẾ ĐỘC ĐÁO</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Datejust 36 và Cosmograph Daytona</span><span class="sc-fzoKki sc-fzpkJw sc-psRme cJJQzT">Tìm hiểu thêm</span></figcaption></figure></a></li></ul></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-Axmtr drNJSf"><div offset="2" id="editorialGrid_fdc813991a023daf9c9bc8b1db509537a96fd6478eb4fa6896ba7bc9f49db2d8" class="sc-fzplWN ejdPUz"><ul class="sc-qPIWj bStant"><li class="sc-pQEyH hTFzds animated"><a class="sc-fzpans hCWFzk" href="/vi/about-rolex-watches/oyster-case.html"><figure role="img" class="sc-pYBma kxXGmZ"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011_portrait.jpg?imwidth=190, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011_portrait.jpg?imwidth=380 2x" media="(max-width:320px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011_portrait.jpg?imwidth=340, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011_portrait.jpg?imwidth=680 2x" media="(min-width:321px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011.jpg?imwidth=440, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011.jpg?imwidth=660 2x" media="(min-width:768px) and (max-width:1068px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011.jpg?imwidth=560, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/oyster-case/homepage-watchmaking-oyster-case_item_201802cw_011.jpg?imwidth=840 2x" media="(min-width:1069px)"><img alt="Quy trình chế tác - Vỏ đồng hồ Oyster" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">VỎ ĐỒNG HỒ OYSTER</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Thiết kế biểu tượng chống thấm nước đỉnh cao</span><span class="sc-fzoKki sc-fzpkJw sc-psRme cJJQzT">Tìm hiểu thêm</span></figcaption></figure></a></li><li class="sc-pQEyH hTFzds animated"><a class="sc-fzpans hCWFzk" href="/vi/about-rolex-watches/the-colour-alchemists.html"><figure role="img" class="sc-pYBma kxXGmZ"><picture class="sc-AxmLO jTdqJh"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01_portrait.jpg?imwidth=190, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01_portrait.jpg?imwidth=380 2x" media="(max-width:320px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01_portrait.jpg?imwidth=340, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01_portrait.jpg?imwidth=680 2x" media="(min-width:321px) and (max-width:767px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01.jpg?imwidth=440, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01.jpg?imwidth=660 2x" media="(min-width:768px) and (max-width:1068px)"><source srcset="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01.jpg?imwidth=560, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-colour-alchemists/homepage-watchmaking-the-colour-alchemists-square_chercheurcouleur_13cw_01.jpg?imwidth=840 2x" media="(min-width:1069px)"><img alt="Thế giới đồng hồ Rolex Những phù thủy sắc màu" loading="lazy" class="sc-fzozJi dteCCc"></picture><figcaption class="sc-oUbqx gdKcuF"><span class="sc-fzoant sc-fzqMAW himZKo">NHỮNG PHÙ THỦY SẮC MÀU</span><span class="sc-fzoxKX sc-fznzOf jxQFAb">Mặt số đồng hồ</span><span class="sc-fzoKki sc-fzpkJw sc-psRme cJJQzT">Tìm hiểu thêm</span></figcaption></figure></a></li></ul></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="sc-fzowVh gSfeHF"><div><div class="sc-AxhUy kVhtDy swipe-down" aria-hidden="true" role="dialog" aria-modal="false"><span aria-hidden="true" tabindex="0" class="sc-fzqMdD fZQoNm"></span><button type="button" class="sc-AxiKw igQLUq sc-AxhCb gYNxVI sc-AxheI eFYDH" aria-label="Đóng cửa sổ" tabindex="0"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="hsl(0,0%,100%)" role="img" aria-hidden="true" alt=""><path d="m8.9 7.5 6.1 6.1-1.4 1.4-6.1-6.1-6.1 6.1-1.4-1.4 6.1-6.1-6.1-6.1 1.4-1.4 6.1 6.1 6.1-6.1 1.4 1.4z"></path></svg></span></button><div class="sc-AxgMl cVmQYF"></div><span aria-hidden="true" tabindex="0" class="sc-fzqMdD fZQoNm"></span></div></div><div class="sc-pcxSc iBMijp"><h2 class="sc-fzpmMD enYpte sc-pQeKv jPdPir">CHIA SẺ TRANG NÀY</h2><div class="sc-pkryX dKCOua"><button type="button" title="Chia sẻ trang này lên Twitter Tab mới" aria-label="Chia sẻ trang này lên Twitter Tab mới" class="sc-AxiKw czwGob sc-psorm hxxXzh"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m15 2.85c-.55.24-1.14.41-1.77.49.64-.38 1.12-.98 1.35-1.7-.6.35-1.25.61-1.96.75-.56-.6-1.36-.97-2.24-.97-1.7 0-3.08 1.38-3.08 3.08 0 .24.03.48.08.7-2.55-.14-4.82-1.37-6.34-3.23-.26.45-.41.98-.41 1.55 0 1.07.54 2.01 1.37 2.56-.51-.02-.98-.16-1.4-.39v.04c0 1.49 1.06 2.74 2.47 3.02-.26.07-.53.1-.81.1-.2 0-.39-.02-.58-.05.39 1.22 1.53 2.11 2.87 2.14-1.05.82-2.38 1.31-3.82 1.31-.25 0-.49-.01-.73-.04 1.36.87 2.98 1.38 4.72 1.38 5.66 0 8.75-4.69 8.75-8.75l-.01-.4c.61-.43 1.13-.97 1.54-1.59zm0 0"></path></svg></span></button><button type="button" title="Chia sẻ trang này lên Facebook Tab mới" aria-label="Chia sẻ trang này lên Facebook Tab mới" class="sc-AxiKw czwGob sc-psorm hxxXzh"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m11.5 0v2.25h-2.93c-.31 0-.57.32-.57.63v1.62h3.25l-.61 2.25h-2.64v8.25h-2.25v-8.25h-2.25v-2.25h2.25v-1.75c0-1.59 1.17-2.75 2.75-2.75z"></path></svg></span></button><button type="button" title="Chia sẻ trang này lên Pinterest Tab mới" aria-label="Chia sẻ trang này lên Pinterest Tab mới" class="sc-AxiKw czwGob sc-psorm hxxXzh"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m13.5 5.34c0 3.18-2.04 5.75-4.87 5.75-.95 0-1.85-.49-2.15-1.06 0 0-.47 1.76-.59 2.2-.19.71-.65 1.57-1.02 2.18-.03.05-.06.11-.1.16-.02.03-.04.05-.05.08-.12.15-.25.29-.39.35 0 0-.16-.13-.25-.58 0-.03-.02-.07-.02-.1-.01-.09-.02-.19-.03-.3 0 0 0 0 0-.01-.06-.7-.08-1.58.07-2.24.17-.72 1.1-4.59 1.1-4.59s-.27-.56-.27-1.38c0-1.29.76-2.24 1.7-2.24.8 0 1.19.59 1.19 1.3 0 .79-.51 1.98-.78 3.08-.22.92.47 1.67 1.39 1.67 1.67 0 2.95-1.73 2.95-4.23 0-2.21-1.62-3.76-3.92-3.76-2.67 0-4.24 1.97-4.24 4.01 0 .79.31 1.65.7 2.11.07.09.08.17.06.26-.07.29-.23.92-.26 1.05-.04.17-.13.2-.31.12-1.18-.54-1.91-2.22-1.91-3.58 0-2.91 2.15-5.59 6.21-5.59 3.26 0 5.79 2.28 5.79 5.34z"></path></svg></span></button><button type="button" title="Chia sẻ trang này lên Linkedin Tab mới" aria-label="Chia sẻ trang này lên Linkedin Tab mới" class="sc-AxiKw czwGob sc-psorm hxxXzh"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m15 8.91v5.74h-3.1v-5.36c0-1.34-.47-2.26-1.6-2.26-.86 0-1.39.62-1.62 1.22-.07.21-.11.51-.11.81v5.59h-3.1s.04-9.05 0-10h3.1v1.41c0 .01.01.01 0 .01v-.01c.48-.68 1.17-1.66 2.83-1.66 2.05 0 3.6 1.43 3.6 4.51zm-13.32-8.55c-1.02 0-1.68.72-1.68 1.66 0 .93.64 1.67 1.64 1.67h.02c1.03 0 1.68-.74 1.68-1.67-.03-.94-.65-1.66-1.66-1.66zm-1.44 14.28h2.86v-10h-2.86z"></path></svg></span></button><div class="sc-pYbCK hFTajN"><button type="button" title="Mở chia sẻ trang này qua email" aria-label="Mở chia sẻ trang này qua email" class="sc-AxiKw czwGob sc-oUAZN cmfQvt"><span class="sc-AxjAm oUQss"><svg height="11" width="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m0 1.1h11l-5.5 4.2zm5.5 6.2-5.5-4.2v6.7h11v-6.7z"></path></svg></span></button></div><button type="button" title="Xem thêm các mạng xã hội" aria-label="Xem thêm các mạng xã hội" class="sc-AxiKw czwGob sc-psorm hxxXzh"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green" role="img" aria-hidden="true" alt=""><path d="m4 7.5c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm3.5-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm5.5 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></span></button></div></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div></div><div></div></div></div><div></div></div><div class=" aem-GridColumn aem-GridColumn--default--12"><div class="aem-container undefined"><div class=""><div class="aem-container aem-Grid aem-Grid--12 aem-Grid--default--12"><div class=" aem-GridColumn aem-GridColumn--default--12"><footer id="footer" role="contentinfo" class="sc-pDabv bbwRJT"><section class="sc-qcpLw gPQgEj"><a href="#languages"><span class="sc-AxjAm oUQss"><svg height="21" width="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="languages" name="search"><path d="m13.05 11.9.06.25-.21.6-.21-.09.02-.5zm-3.31-5.06v.45l.33-.14.09-.14-.35-.65-.21.14.01.17-.2.23-.01.24h.24zm-2.28-1-.36-.1-.45.47.58 1.45.27.06.02-.47.19-.11.01-.18.19-.34-.14-.26zm-.57 5.8-.67-.48-.99-.09-.14.23-.2-.07-.1-.35-.3-.02.12-.34-.24-.02-.25.19-.17-.24.15-.4.67-.09.12.33.17-.02v-.32l.47-.62.59-.31.77-.32-.54-1.16-.25.14-.2-.52-.47.02-.12.93-.17.02-.72-.73.15-.38.74-.14v-.9l-1.85.18-.96-.54-.45.4-1.21-.64-.67.38.25.35h-.27l-.07.27.37.05-.37.28.12.4.32.07-.52.41.81-.38.44-.24.73.43.57.93v.83l.34.62.57.85.69.24.29.13.35.43.24-.04-.27.42.22.85.47.4-.57 2.2.2.47.57.14-.35-.36.47-.85 1.01-.83.08-.38.49-.07.49-.97-.87-.4zm11.79.17-.05.4-.35-.13.06-.22-.39-.03-.5.45-.53.19.13.7-.05.14.2.11.79-.19.31.17.15-.08.1.28.4.11.29-.17.16-.84-.44-.42zm-1.96-.4.42.08.19-.57-.11-.09-.57.34zm3.69-4.6.59-.32-.16-.43-4.29-.58s-2.6.27-4.04.41l-1.24-.22-.5.26-.2.46-.24.17-.01.39.13.08.27-.15.13.4.24-.09.16-.4-.16-.16.14-.3.17-.2.1.01-.1.24-.1.08.04.1-.01.01h.01l.23.59-.2-.07-.14.35-.51-.01-.09-.25-.12.15.04.16-.18.01-.22.3-.41.13.11.21.17.26-.54-.03.03.5.42.06.28-.41.39-.19.17.19.23.3.17-.19-.33-.21-.01-.2.16.07.26.2-.01.2.2.24.09-.3.25.29.44.08-.07.23-.17.1-.64-.16-.16.22-.42-.26-.07-.27-1.04.16-.53.63-.1.84.55.51.99-.06.29.87-.11.5.47 1.09.53-.09.53-.96.29-.22-.08-.67.52-.46.16-.54-.52.23-.53-1.16.11-.02.52.98 1-.58-.34-.25-.26.13-.16-.37.11-.06.23.18.78.14.32.37.29.7.23-.21v-.27l.63-.42.23.47.19-.05.04.47.19.34-.42-.2.31.42.34.31.81.14-.44-.17-.32-.11-.11-.5-.26-.28.01-.28.3.3.29-.23-.27-.39.13-.2.6-.03.27-.48-.19-.53.24-.25.18.23.07.29.21-.11-.08-.33.18-.25.29-.05.34-.9-.29-.2.4-.37.53.03.44-.34.34-.05-.55.64.01.56.42-.5-.02-.35zm-1.6.92h-.11l-.02.56-.29.59-.37.26-.02.24.68-.39.03-.4.23-.2-.18-.14.1-.33zm1.75 5.64.05.43-.5.45.32.03.29-.42.23-.29-.15-.01zm-2.54-2.11.44.43.25.02.11-.09.35.22-.14-.29-.67-.31z"></path></svg></span><h2 class="sc-oVqWn ktElOz">Ngôn ngữ</h2></a><button name="a11yMode" aria-expanded="false" class="sc-pLvcq jvrmaG"><span class="sc-oVqWn ktElOz">Khả năng truy cập</span><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="accessibility down"><path d="m15 5.41-7.5 7.91-7.5-7.91 1.95-1.95 5.55 5.83 5.55-5.83z"></path></svg></span></button></section><div class="sc-plWPA gXobFM" style="display: none; height: 0px;"><div class="sc-pTFUI btuQbY"><div class="sc-pKKuz jdOMFB"><span class="sc-pCOsa iDlSoE">Tăng độ tương phản</span><div class="sc-qbBXh kWwWMH"><input aria-label="Tăng độ tương phản" type="checkbox" readonly="" class="sc-oVfmS hKjNAl"><label class="sc-pdbpr erGMPO">Tắt</label></div></div><div class="sc-pKKuz jdOMFB"><span class="sc-pCOsa iDlSoE">Giảm hiệu ứng</span><div class="sc-qbBXh kWwWMH"><input aria-label="Giảm hiệu ứng" type="checkbox" readonly="" class="sc-oVfmS hKjNAl"><label class="sc-pdbpr erGMPO">Tắt</label></div></div></div></div><div class="sc-pTUKB dNBfFK sections-wrapper"><div class="sc-qOirS cwMqCE section-inner"><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">ĐỒNG HỒ ROLEX</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches.html">Đồng hồ Rolex</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/new-watches.html">Đồng hồ mới 2021</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/configure.html">Cấu hình đồng hồ</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/find-rolex.html">Tìm đồng hồ</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/find-rolex/man.html">Đồng hồ Nam</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/find-rolex/woman.html">Đồng hồ Nữ</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/about-rolex-watches.html">Lịch sử &amp; Quá trình chế tác</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/world-of-rolex/every-rolex-tells-a-story.html">Mỗi chiếc Rolex đều kể một câu chuyện</a></div></li></ul></div><div></div></div><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">THẾ GIỚI ROLEX</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/world-of-rolex.html">Thể thao, Nghệ thuật và Thám hiểm</a></div></li></ul></div><div></div></div><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">DỊCH VỤ</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/buying-a-rolex.html">Mua một chiếc Rolex</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/rolex-dealers/vietnam.html">Tìm đại lý bán lẻ</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watch-care-and-service.html">Bảo dưỡng &amp; Dịch vụ đồng hồ</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/wishlist.html">Bộ sưu tập của bạn</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watch-care-and-service/faq.html">Câu hỏi thường gặp</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm jxKTHZ"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m7.89 11h1.66v2.34 1.66h-1.66-6.23-1.66v-1.66-11.68-1.66h1.66 6.23 1.66v1.66 2.34h-1.66v-2.34h-6.23v11.68h6.23zm5.49-5.13-1.62-1.64v2.45h-7.67v1.66h7.68v2.45l1.62-1.64 1.61-1.65z"></path></svg></span><a href="https://newsroom.rolex.com/" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="https://newsroom.rolex.com/" aria-label="Tin tức" title="" target="_blank">Tin tức</a></div></li></ul></div><div></div></div> </div><div class="sc-qOirS cwMqCE section-inner"><div class="sc-ptSRZ hePbrJ"><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">BỘ SƯU TẬP</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/air-king.html">Air-King</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/cosmograph-daytona.html">Cosmograph Daytona</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/datejust.html">Datejust</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/lady-datejust.html">Lady-Datejust</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/day-date.html">Day-Date</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/explorer.html">Explorer</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/gmt-master-ii.html">GMT-Master II</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/milgauss.html">Milgauss</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/oyster-perpetual.html">Oyster Perpetual</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/pearlmaster.html">Pearlmaster</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/sea-dweller.html">Sea-Dweller</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/sky-dweller.html">Sky-Dweller</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/submariner.html">Submariner</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/yacht-master.html">Yacht-Master</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/watches/cellini.html">Cellini</a></div></li></ul></div><div></div></div></div></div><div class="sc-qOirS cwMqCE section-inner"><div class="sc-ptSRZ hePbrJ"><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">KÊNH CHÍNH THỨC</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m11.5 0v2.25h-2.93c-.31 0-.57.32-.57.63v1.62h3.25l-.61 2.25h-2.64v8.25h-2.25v-8.25h-2.25v-2.25h2.25v-1.75c0-1.59 1.17-2.75 2.75-2.75z"></path></svg></span><a href="http://www.facebook.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="http://www.facebook.com/rolex" aria-label="Facebook" title="" target="_blank">Facebook</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m10.86 0h-6.72c-2.28 0-4.14 1.86-4.14 4.14v6.72c0 2.28 1.86 4.14 4.14 4.14h6.72c2.28 0 4.14-1.86 4.14-4.14v-6.72c0-2.28-1.86-4.14-4.14-4.14zm0 13.67h-6.72c-1.55 0-2.81-1.26-2.81-2.81v-6.72c0-1.55 1.26-2.81 2.81-2.81h6.72c1.55 0 2.81 1.26 2.81 2.81v6.72c0 1.55-1.26 2.81-2.81 2.81zm-3.36-10.13c-2.13 0-3.87 1.73-3.87 3.87 0 2.13 1.73 3.86 3.87 3.86 2.13 0 3.87-1.73 3.87-3.86 0-2.14-1.74-3.87-3.87-3.87zm0 6.4c-1.4 0-2.53-1.14-2.53-2.53 0-1.4 1.14-2.53 2.53-2.53s2.53 1.14 2.53 2.53-1.13 2.53-2.53 2.53zm4.72-7.25c.18.18.29.43.29.69s-.1.51-.29.69c-.18.18-.43.29-.69.29s-.51-.1-.69-.29c-.18-.18-.29-.43-.29-.69s.1-.51.29-.69c.18-.18.43-.29.69-.29.25.01.51.11.69.29z"></path></svg></span><a href="http://www.instagram.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="http://www.instagram.com/rolex" aria-label="Instagram" title="" target="_blank">Instagram</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m15 2.85c-.55.24-1.14.41-1.77.49.64-.38 1.12-.98 1.35-1.7-.6.35-1.25.61-1.96.75-.56-.6-1.36-.97-2.24-.97-1.7 0-3.08 1.38-3.08 3.08 0 .24.03.48.08.7-2.55-.14-4.82-1.37-6.34-3.23-.26.45-.41.98-.41 1.55 0 1.07.54 2.01 1.37 2.56-.51-.02-.98-.16-1.4-.39v.04c0 1.49 1.06 2.74 2.47 3.02-.26.07-.53.1-.81.1-.2 0-.39-.02-.58-.05.39 1.22 1.53 2.11 2.87 2.14-1.05.82-2.38 1.31-3.82 1.31-.25 0-.49-.01-.73-.04 1.36.87 2.98 1.38 4.72 1.38 5.66 0 8.75-4.69 8.75-8.75l-.01-.4c.61-.43 1.13-.97 1.54-1.59zm0 0"></path></svg></span><a href="https://twitter.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="https://twitter.com/rolex" aria-label="Twitter" title="" target="_blank">Twitter</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m12.19 1.88h-9.38c-1.54 0-2.81 1.26-2.81 2.81v5.62c0 1.55 1.27 2.81 2.81 2.81h9.37c1.55 0 2.81-1.27 2.81-2.81v-5.62c.01-1.55-1.26-2.81-2.8-2.81zm-6.57 9.37v-7.5l4.69 3.75z"></path></svg></span><a href="http://www.youtube.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="http://www.youtube.com/rolex" aria-label="Youtube" title="" target="_blank">Youtube</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m13.5 5.34c0 3.18-2.04 5.75-4.87 5.75-.95 0-1.85-.49-2.15-1.06 0 0-.47 1.76-.59 2.2-.19.71-.65 1.57-1.02 2.18-.03.05-.06.11-.1.16-.02.03-.04.05-.05.08-.12.15-.25.29-.39.35 0 0-.16-.13-.25-.58 0-.03-.02-.07-.02-.1-.01-.09-.02-.19-.03-.3 0 0 0 0 0-.01-.06-.7-.08-1.58.07-2.24.17-.72 1.1-4.59 1.1-4.59s-.27-.56-.27-1.38c0-1.29.76-2.24 1.7-2.24.8 0 1.19.59 1.19 1.3 0 .79-.51 1.98-.78 3.08-.22.92.47 1.67 1.39 1.67 1.67 0 2.95-1.73 2.95-4.23 0-2.21-1.62-3.76-3.92-3.76-2.67 0-4.24 1.97-4.24 4.01 0 .79.31 1.65.7 2.11.07.09.08.17.06.26-.07.29-.23.92-.26 1.05-.04.17-.13.2-.31.12-1.18-.54-1.91-2.22-1.91-3.58 0-2.91 2.15-5.59 6.21-5.59 3.26 0 5.79 2.28 5.79 5.34z"></path></svg></span><a href="http://www.pinterest.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="http://www.pinterest.com/rolex" aria-label="Pinterest" title="" target="_blank">Pinterest</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m15 8.91v5.74h-3.1v-5.36c0-1.34-.47-2.26-1.6-2.26-.86 0-1.39.62-1.62 1.22-.07.21-.11.51-.11.81v5.59h-3.1s.04-9.05 0-10h3.1v1.41c0 .01.01.01 0 .01v-.01c.48-.68 1.17-1.66 2.83-1.66 2.05 0 3.6 1.43 3.6 4.51zm-13.32-8.55c-1.02 0-1.68.72-1.68 1.66 0 .93.64 1.67 1.64 1.67h.02c1.03 0 1.68-.74 1.68-1.67-.03-.94-.65-1.66-1.66-1.66zm-1.44 14.28h2.86v-10h-2.86z"></path></svg></span><a href="https://linkedin.com/company/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="https://linkedin.com/company/rolex" aria-label="LinkedIn" title="" target="_blank">LinkedIn</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m7.5 0c-4.14 0-7.5 3.36-7.5 7.5s3.36 7.5 7.5 7.5 7.5-3.36 7.5-7.5-3.36-7.5-7.5-7.5zm0 13.06c-3.07 0-5.56-2.5-5.56-5.56s2.5-5.56 5.56-5.56 5.56 2.5 5.56 5.56-2.49 5.56-5.56 5.56zm-1.94-9.43 4.84 3.87-4.84 3.87z"></path></svg></span><a href="https://bigevent.youku.com/act/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="https://bigevent.youku.com/act/rolex" aria-label="Youku" title="" target="_blank">Youku</a></div></li><li class="sc-pYOYC ivKpUe"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m10.16 5.34c.84 0 1.63.15 2.35.41.04-.24.07-.49.07-.74 0-2.76-2.82-5.01-6.29-5.01s-6.29 2.25-6.29 5.02c0 1.43.75 2.72 1.96 3.63l-.02-.01s.43.28.31.86-.22.99-.14 1.11.29-.02 1.19-.57c.41-.28.77-.29 1-.26.33-2.5 2.83-4.44 5.86-4.44zm-1.79-2.74c.48 0 .87.37.87.83s-.39.83-.87.83-.87-.37-.87-.83.39-.83.87-.83zm-5.04.83c0-.46.39-.83.87-.83s.87.37.87.83-.39.83-.87.83-.87-.37-.87-.83zm11.67 6.97c0-2.27-2.17-4.11-4.84-4.11s-4.84 1.84-4.84 4.11 2.17 4.11 4.84 4.11c.47 0 .91-.06 1.34-.16l-.01.01s.01 0 .02-.01c.06-.01.12-.03.18-.05.18-.03.46-.02.79.21.69.45.86.56.92.47.06-.1-.02-.43-.11-.91-.1-.48.24-.7.24-.7l-.01.01c.9-.76 1.48-1.81 1.48-2.98zm-6.44-.63c-.37 0-.67-.3-.67-.68s.3-.68.67-.68.67.3.67.68-.3.68-.67.68zm3.21 0c-.37 0-.67-.3-.67-.68s.3-.68.67-.68.67.3.67.68-.3.68-.67.68z"></path></svg></span><a tabindex="0" href="#weChat" aria-label="WeChat" class="sc-pdihw ioczYG">WeChat</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><span class="sc-AxjAm oUQss"><svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="footer-icon"><path d="m11.07 7.59c-.25-.09-.33-.09-.25-.44.25-.62.25-1.24 0-1.59-.49-.71-1.8-.71-3.28 0 0 0-.49.27-.33-.18.25-.8.16-1.51-.16-1.86-.82-.89-2.95 0-4.84 2.04-1.39 1.5-2.21 3.09-2.21 4.51 0 2.66 3.11 4.43 6.15 4.43 4.02 0 6.64-2.75 6.64-4.7.08-1.24-.9-1.95-1.72-2.21zm-4.84 5.67c-2.46.27-4.51-.97-4.67-2.66-.17-1.77 1.64-3.37 4.1-3.63 2.46-.27 4.51.89 4.67 2.66s-1.64 3.36-4.1 3.63zm8.77-7.89c0-2.66-2.05-4.87-4.51-4.87-.33 0-.49.27-.49.53 0 .35.25.53.49.53 1.89 0 3.44 1.68 3.44 3.72 0 .35.25.53.49.53.42.18.58-.08.58-.44zm-2.05-.09c-.25-1.24-1.15-2.3-2.38-2.57-.24-.08-.57.18-.65.45s.16.62.41.71c.74.18 1.39.8 1.56 1.68.08.27.33.53.66.44.24-.08.48-.35.4-.71zm-7.95 3.46c-.98.18-1.64 1.06-1.48 1.95s1.07 1.42 2.05 1.24 1.64-1.06 1.48-1.95c-.16-.97-1.07-1.51-2.05-1.24z"></path></svg></span><a href="http://www.weibo.com/rolex" class="sc-fzoLsD dqdqWw footer-link" rel="noopener noreferrer" data-outlink="http://www.weibo.com/rolex" aria-label="Weibo" title="" target="_blank">Weibo</a></div></li></ul></div><div></div></div></div><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">THÔNG BÁO PHÁP LÝ</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/legal-notices/terms-of-use.html">Điều khoản sử dụng</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/legal-notices/privacy-notice.html">Thông báo bảo mật</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/legal-notices/cookies.html">Cookie</a></div></li></ul></div><div></div></div><div><div class="sc-pIVsU cmTJJF"><p class="sc-pkGMj cyTOxx">MEDIA</p><ul class="sc-oUNgB ezLlXf"><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/media/wallpapers.html">Giao diện</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/media/brochures.html">Ấn phẩm</a></div></li><li class="sc-pYOYC ivKpUe item"><div class="sc-pQtXH ghNGUf"><a class="sc-fzpans hCWFzk footer-link" href="/vi/media/user-guides.html">Hướng dẫn sử dụng</a></div></li></ul></div><div></div></div></div></div><div class="sc-pmlFt isSKOJ"><button type="text" aria-label="Cam kết của chúng tôi tại Rolex.org " class="sc-AxirZ epmWcR sc-fzoydu oXdwS"><span class="sc-AxjAm jxKTHZ"><svg height="11" width="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""><path d="m5.78 8h1.22v1.78 1.22h-1.22-4.56-1.22v-1.22-8.56-1.22h1.22 4.57 1.21v1.22 1.78h-1.22v-1.78h-4.56v8.57h4.57v-1.79zm4.03-3.7-1.18-1.2v1.8h-5.63v1.22h5.63v1.8l1.19-1.2 1.18-1.22z"></path></svg></span><span class="sc-fzoKki sc-fzpkJw hctKJM">Cam kết của chúng tôi tại Rolex.org </span></button></div><div aria-label="Về đầu trang" tabindex="0" class="sc-pdLXi hAWuph"><span class="sc-AxjAm oUQss"><svg height="21" width="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" name="search"><path d="m19.5 16.6-9-9.4-9 9.4-1.4-1.4 10.4-10.8 10.4 10.9z"></path></svg></span></div></footer><div></div></div></div><div></div></div></div><div></div></div></div><div></div></div></div><div></div></div></div> </div><iframe name="__tcfapiLocator" style="display: none;"></iframe> 
-  <script src="//assets.adobedtm.com/launch-EN1cca3d80229249fbb791f658ee4e3a9f.min.js" async=""></script> 
-  <script src="/etc.clientlibs/clientlibs/rolex/front/rolex-react.lc-6.8.1-e952e-lc.min.js"></script> 
-  <script src="/etc.clientlibs/clientlibs/rolex/front/quantcast.lc-6.8.1-e952e-lc.min.js"></script> 
-  <script type="text/javascript">
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.getRegistrations().then(function (registrations) {
-                    for (let registration of registrations) {
-                        registration.unregister()
-                    }
-                })
-            }
-        </script> 
-  <!-- Quantcast Tag --> 
-  <script type="text/javascript">
-            var _qevents = _qevents || [];
-            (function () {
-                var elem = document.createElement('script');
-                elem.src = (document.location.protocol === "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-                elem.async = true;
-                elem.type = "text/javascript";
-                var scpt = document.getElementsByTagName('script')[0];
-                scpt.parentNode.insertBefore(elem, scpt);
-            })();
-            _qevents.push({
-                qacct: "p-j6ef-UjNU-sjS"
+            <section class="page-section" style="padding-top: 20px;padding-bottom: 20px;">
+                <div class="container">
+                    <h1 class="section-title">
+                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-file-text-o fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Bài viết nổi bật<small></small></span>
+                    </h1>
+                    <div class="row post-row">
+                        <?php include_once 'views/show/show_post_index.php'; ?>
+                    </div>
+                    <div class="text-center margin-top">
+                        <a data-animation="flipInY" data-animation-delay="100" href="blogs.php" class="btn btn-theme"><i class="fa fa-file"></i> Xem thêm tin tức</a>
+                    </div>
+                </div>
+            </section>
+            <!-- PAGE SPONSORS -->
+            <section class="page-section" id="sponsors">
+                <div class="container">
+                    <h1 class="section-title">
+                        <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x"></i></span></span>
+                        <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Đối tác liên kết <small></small></span>
+                    </h1>
+                    <div class="partners-carousel" data-animation="fadeInUp" data-animation-delay="300">
+                        <div class="owl-carousel">
+                            <div><a href="#"><img src="views/assets/img/partner/1.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/2.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/3.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/4.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/5.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/6.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/7.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/8.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/9.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/10.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/11.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/12.jpg" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/13.jpg" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="views/assets/img/partner/15.jpg" width="170" height="60" /></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /PAGE SPONSORS -->        </div>
+        <!-- /Content area -->
+        <?php getTemplate("footer") ?>
+    </div>
+    <!-- /Wrap all content -->
+    <!-- JS Global -->
+    <!--[if lt IE 9]><script src="views/assets/plugins/jquery/jquery-1.11.1.min.js"></script><![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="assets/plugins/jquery/jquery-2.1.1.min.js"></script>
+    <!--<![endif]-->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/superfish/js/superfish.js"></script>
+    <script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/plugins/placeholdem.min.js"></script>
+    <script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <!-- JS Page Level -->
+    <script src="assets/plugins/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="assets/plugins/countdown/jquery.plugin.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <!--<![endif]-->
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            theme.init();
+            theme.initMainSlider();
+            theme.initPartnerSlider();
+            theme.initTestimonials();
+            $('#playy').click(()=>{
+                $('#video').show();
+                $('#playy').attr('style', 'display: none !important');
             });
-        </script> 
-  <noscript> 
-   <div style="display:none;"> 
-    <img src="//pixel.quantserve.com/pixel/p-j6ef-UjNU-sjS.gif" border="0" height="1" width="1" alt="Quantcast"> 
-   </div> 
-  </noscript> 
-  <!-- End Quantcast tag --> 
-  <script>
-        var digitalDataLayer = {
-            environment: {
-                environmentVersion: "6.8.1",
-                environmentName: "production",
-                siteName: "Rolex.com",
-                statusCode: 200
-            },
-            target: {},
-            page: {
-                pageInfo: {
-                    pageName: "home",
-                    pageReferrer: document.referrer,
-                    pageSiteSection: "homepage",
-                    pageSiteSubsection: "",
-                    pageType: "homepage",
-                    pageURL: "https://www.rolex.com/vi"
+            $('#video').hide();
+            function remove_active() {
+                $('#first').removeClass('active');
+                $('#second').removeClass('active');
+                $('#third').removeClass('active');
+                $('#last').removeClass('active');
+                $('#tab-first').removeClass('in active');
+                $('#tab-second').removeClass('in active');
+                $('#tab-third').removeClass('in active');
+                $('#tab-last').removeClass('in active');
+            }
+            var hihi = setInterval(()=>{
+                if ($('#first').attr('class') == 'active') {
+                    remove_active();
+                    $('#second').addClass('active');
+                    $('#tab-second').addClass('in active');
+                } else if ($('#second').attr('class') == 'active') {
+                    remove_active();
+                    $('#third').addClass('active');
+                    $('#tab-third').addClass('in active');
+                } else if ($('#third').attr('class') == 'active') {
+                    remove_active();
+                    $('#last').addClass('active');
+                    $('#tab-last').addClass('in active');
+                } else if ($('#last').attr('class') == 'active') {
+                    remove_active();
+                    $('#first').addClass('active');
+                    $('#tab-first').addClass('in active');
+                }
+            },5000);
+            $('#first').click(()=>{
+                clearInterval(hihi);
+            });
+            $('#second').click(()=>{
+                clearInterval(hihi);
+            });
+            $('#third').click(()=>{
+                clearInterval(hihi);
+            });
+            $('#last').click(()=>{
+                clearInterval(hihi);
+            });
+        });
+        jQuery(window).load(function() {
+            theme.initAnimation();
+        });
+    
+        jQuery(window).load(function() { jQuery('body').scrollspy({ offset: 100, target: '.navigation' }); });
+        jQuery(window).load(function() { jQuery('body').scrollspy('refresh'); });
+        jQuery(window).resize(function() { jQuery('body').scrollspy('refresh'); });
+    
+        jQuery(document).ready(function() { theme.onResize(); });
+        jQuery(window).load(function() { theme.onResize(); });
+        jQuery(window).resize(function() { theme.onResize(); });
+    
+        jQuery(window).load(function() {
+            if (location.hash != '') {
+                var hash = '#' + window.location.hash.substr(1);
+                if (hash.length) {
+                    jQuery('html,body').delay(0).animate({
+                        scrollTop: jQuery(hash).offset().top - 44 + 'px'
+                    }, {
+                        duration: 1200,
+                        easing: "easeInOutExpo"
+                    });
                 }
             }
-        }
-    </script>   
- 
-<script>
-host=document.location.href,-1!=host.indexOf("rolex.cn")||-1!=host.indexOf("publish-cn.rlx-uat.com")||-1!=host.indexOf("publish-cn-hotfix.rlx-staging.com/")?(_satellite.setVar("CC-Analyticsconsent",!0),_satellite.setVar("CC-CSconsent",!0)):window.__tcfapi("addEventListener",2,function(t,e){e&&("useractioncomplete"!==t.eventStatus&&"tcloaded"!==t.eventStatus||(t.gdprApplies?"undefined"!=typeof __tcfapi&&""!=__tcfapi?window.__tcfapi("getNonIABVendorConsents",2,function(t,e){e?t.nonIabVendorConsents?null!=t.nonIabVendorConsents?(_satellite.setVar("CC-Analyticsconsent",t.nonIabVendorConsents[3]),_satellite.setVar("CC-CSconsent",t.nonIabVendorConsents[1])):(_satellite.setVar("CC-Analyticsconsent",!1),_satellite.setVar("CC-CSconsent",!1)):(_satellite.setVar("CC-Analyticsconsent",!0),_satellite.setVar("CC-CSconsent",!0)):(_satellite.setVar("CC-Analyticsconsent",!1),_satellite.setVar("CC-CSconsent",!1))}):(_satellite.setVar("CC-Analyticsconsent",!1),_satellite.setVar("CC-CSconsent",!1)):(_satellite.setVar("CC-Analyticsconsent",!0),_satellite.setVar("CC-CSconsent",!0))))});
-</script><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_rolex_0" name="destination_publishing_iframe_rolex_0_name" src="https://rolex.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.rolex.com" class="aamIframeLoaded" style="display: none; width: 0px; height: 0px;"></iframe><div id="hdrGradient"><span class="sc-fzpisO ekyFqj"></span></div><div id="pane"></div><script>_satellite["_runScript1"](function(event, target, Promise) {
-!function(){var e,t;if(window._uxa=window._uxa||[],window._uxa.push(["setCustomVariable",3,"category","",3]),window._uxa.push(["setCustomVariable",4,"id","",3]),window._uxa.push(["setCustomVariable",5,"price","",3]),""!=_satellite.getVar("DL-StatusCode")&&"undefined"!=_satellite.getVar("DL-StatusCode")&&window._uxa.push(["setCustomVariable",1,"responsecode",_satellite.getVar("DL-StatusCode"),3]),""!=_satellite.getVar("DL-CountryCode")&&"undefined"!=_satellite.getVar("DL-CountryCode")&&window._uxa.push(["setCustomVariable",2,"countryCode",_satellite.getVar("DL-CountryCode"),3]),""!=_satellite.getVar("DLCode-CSProducts")&&"undefined"!=_satellite.getVar("DLCode-CSProducts"))if((e=_satellite.getVar("DLCode-CSProducts"))instanceof Array)for(var a=0;a<e.length;a++)"undefined"!=e[a].productDetails&&(window._uxa.push(["setCustomVariable",3,"category",e[a].productDetails.productFamily,3]),window._uxa.push(["setCustomVariable",4,"id",e[a].productDetails.productRMC,3]),window._uxa.push(["setCustomVariable",5,"price",e[a].productDetails.productPrice,3]));else window._uxa.push(["setCustomVariable",3,"category",e.productDetails.productFamily,3]),window._uxa.push(["setCustomVariable",4,"id",e.productDetails.productRMC,3]),window._uxa.push(["setCustomVariable",5,"price",e.productDetails.productPrice,3]);(""!=_satellite.getVar("DL-CountryZone")&&"undefined"!=_satellite.getVar("DL-CountryZone")&&window._uxa.push(["setCustomVariable",6,"countryZone",_satellite.getVar("DL-CountryZone"),3]),""!=_satellite.getVar("DL-Currency")&&"undefined"!=_satellite.getVar("DL-Currency")&&window._uxa.push(["setCustomVariable",7,"currency",_satellite.getVar("DL-Currency"),3]),""!=_satellite.getVar("DL-PageType")&&"undefined"!=_satellite.getVar("DL-PageType")&&window._uxa.push(["setCustomVariable",8,"pageType",_satellite.getVar("DL-PageType"),3]),""!=_satellite.getVar("DL-PageType")&&"configurator"!=_satellite.getVar("DL-PageType")&&window._uxa.push(["setCustomVariable",9,"","",3]),"undefined"==typeof CS_CONF)?("production"==_satellite.getVar("DL-EnvironmentName")?(window._uxa.push(["setPath",window.location.pathname+window.location.hash.replace("#","?__")]),(t=document.createElement("script")).type="text/javascript",t.async=!0,t.src="https://static.rolex.com/cs_rolex_trk/cs_rolexcom_prod.js"):(window._uxa.push(["setPath",window.location.pathname+window.location.hash.replace("#","?__")]),(t=document.createElement("script")).type="text/javascript",t.async=!0,t.src="https://static.rolex.com/cs_rolex_trk/cs_rolexcom_staging.js"),document.getElementsByTagName("head")[0].appendChild(t)):-1==_satellite.getVar("DL-PageURL").indexOf("/watches/configure")&&window._uxa.push(["trackPageview",window.location.pathname+window.location.hash.replace("#","?__")])}();
-});</script><iframe src="https://csxd.rolex.cn/xdframe-1.0.0.html" style="display: none;"></iframe></body></html>
+        });
+    </script>
+</body>
+
+</html>
