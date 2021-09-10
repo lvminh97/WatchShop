@@ -1,14 +1,8 @@
-<?php 
-    // include_once 'controller/database.php';
-    // include_once 'model/edit_title.php';
-    // include_once 'views/show/show_product_company.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php getTemplate("header") ?>
-    <title>Trang chủ | Y Tế Cường Mạnh</title>
+    <title>PhamGia Watch</title>
     <style>
         h2 {
             font-size: 16px;
@@ -39,13 +33,11 @@
                     <div class="container">
                         <div id="main-slider">
                             
-                            <div class="item page text-center slide" style="background: url(assets/img/banner/bg5.jpg) center center / cover;">
+                            <div class="item page text-center slide" style="background: url(assets/img/banner/bg0.jpg) center center / cover;">
                                 <div class="caption" style="background: #00000014;">
                                     <div class="container">
                                         <div class="col-md-8" style="height: 93% !important;display: table !important;text-align: left;">
                                             <div class="div-cell">
-                                                <h2 class="caption-title">Y TẾ CƯỜNG MẠNH</h2>
-                                                <h3 class="caption-subtitle">NHÀ PHÂN PHỐI CỦA SIEMENS</h3>
                                                 <!-- Event description -->
                                                 <!-- /Event description -->
                                             </div>
@@ -53,15 +45,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item page text-center slide2" style="background: url(views/assets/img/banner/bg0.jpg) center center / cover;">
+                            <div class="item page text-center slide2" style="background: url(assets/img/banner/bg1.jpg) center center / cover;">
                                 <div class="caption" style="background: #00000014;">
                                     <div class="container">
                                         <div class="div-table">
                                             <div class="div-cell">
-                                                <p class="caption-text">
-                                                    <a id="playy" class="btn btn-play" href="javascript:;"><i class="fa fa-play"></i></a>
-                                                    <iframe id="video" style="width: 100%;" height="500" src="https://www.youtube.com/embed/IqneZgrL0Qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                </p>
                                                 <!-- Event description -->
                                                 <!-- /Event description -->
                                             </div>
@@ -330,7 +318,7 @@
                         <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Bài viết nổi bật<small></small></span>
                     </h1>
                     <div class="row post-row">
-                        <?php include_once 'views/show/show_post_index.php'; ?>
+                        <?php //include_once 'views/show/show_post_index.php'; ?>
                     </div>
                     <div class="text-center margin-top">
                         <a data-animation="flipInY" data-animation-delay="100" href="blogs.php" class="btn btn-theme"><i class="fa fa-file"></i> Xem thêm tin tức</a>
@@ -339,30 +327,30 @@
             </section>
             <!-- PAGE SPONSORS -->
             <section class="page-section" id="sponsors">
-                <div class="container">
+                <!-- <div class="container">
                     <h1 class="section-title">
                         <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x"></i></span></span>
                         <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Đối tác liên kết <small></small></span>
                     </h1>
                     <div class="partners-carousel" data-animation="fadeInUp" data-animation-delay="300">
                         <div class="owl-carousel">
-                            <div><a href="#"><img src="views/assets/img/partner/1.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/2.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/3.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/4.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/5.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/6.png" width="150" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/7.png" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/8.png" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/9.png" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/10.png" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/11.png" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/12.jpg" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/13.jpg" width="170" height="60" /></a></div>
-                            <div><a href="#"><img src="views/assets/img/partner/15.jpg" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/1.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/2.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/3.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/4.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/5.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/6.png" width="150" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/7.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/8.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/9.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/10.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/11.png" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/12.jpg" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/13.jpg" width="170" height="60" /></a></div>
+                            <div><a href="#"><img src="assets/img/partner/15.jpg" width="170" height="60" /></a></div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </section>
             <!-- /PAGE SPONSORS -->        </div>
         <!-- /Content area -->

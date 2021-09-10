@@ -4,9 +4,9 @@
             <!-- Logo -->
             <div class="logo">
                 <a href="index.php" class="scroll-to">
-                    <img id="logo" src="views/assets/img/logo.png" width="170" style="position:relative;left: 38px;"><br id="br">
-                    <img id="scroll-img" src="views/assets/img/logo.png" width="170" style="display: none">
-                    <span id="sologan" style="    font-size: 12px; position: relative; top: -4px;">GIẢI PHÁP TOÀN DIỆN - GIÁ TRỊ VỮNG BỀN </span>
+                    <img id="logo" src="assets/img/logo.png" width="170" style="position:relative;left: 38px;"><br id="br">
+                    <img id="scroll-img" src="assets/img/logo.png" width="170" style="display: none">
+                    <span id="sologan" style="font-size: 12px; position: relative; top: -4px; left: 54px;">THẾ GIỚI ĐỒNG HỒ </span>
                 </a>
             </div>
             <!-- /Logo -->
@@ -15,11 +15,10 @@
             <nav class="navigation closed clearfix">
                 <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
                 <ul class="sf-menu nav">
-                    <li><a href="index.php">Trang chủ</a></li>
-                    <li><a href="about-us.php">Giới thiệu</a></li>
-                    <li><a href="blogs.php">Tin tức</a></li>
-                    <li><a href="tuyen-dung.php">Tuyển dụng</a></li>
-                    <li><a href="contact-us.php">Liên hệ</a></li>
+                    <li><a href="./.">Homepage</a></li>
+                    <li><a href="./?site=info">Information</a></li>
+                    <li><a href="./?site=product">Products</a></li>
+                    <li><a href="./?site=contact">Contact</a></li>
                 </ul>
             </nav>
             <!-- /Navigation -->
