@@ -6,7 +6,7 @@
                 <a href="index.php" class="scroll-to">
                     <img id="logo" src="assets/img/logo.png" width="170" style="position:relative;left: 38px;"><br id="br">
                     <img id="scroll-img" src="assets/img/logo.png" width="170" style="display: none">
-                    <span id="sologan" style="font-size: 12px; position: relative; top: -4px; left: 54px;">THẾ GIỚI ĐỒNG HỒ </span>
+                    <span id="sologan" style="font-size: 12px; position: relative; top: -4px; left: 54px;">THE WORLD OF WATCH </span>
                 </a>
             </div>
             <!-- /Logo -->

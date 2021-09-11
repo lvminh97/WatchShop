@@ -32,8 +32,7 @@
                 <section class="page-section no-padding background-img-slider">
                     <div class="container">
                         <div id="main-slider">
-                            
-                            <div class="item page text-center slide" style="background: url(assets/img/banner/bg0.jpg) center center / cover;">
+                            <div class="item page text-center slide" style="background: url(assets/img/banner/bg0.jpg); background-size: cover;">
                                 <div class="caption" style="background: #00000014;">
                                     <div class="container">
                                         <div class="col-md-8" style="height: 93% !important;display: table !important;text-align: left;">
@@ -45,7 +44,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item page text-center slide2" style="background: url(assets/img/banner/bg1.jpg) center center / cover;">
+                            <div class="item page text-center slide2" style="background: url(assets/img/banner/bg1.jpg); background-size: cover;">
                                 <div class="caption" style="background: #00000014;">
                                     <div class="container">
                                         <div class="div-table">
@@ -59,53 +58,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Event description -->
-                    <div class="event-description">
-                        <div class="container">
-                            <div class="row">
-                                <div class="event-background">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                                <div class="media">
-                                                    <span class="pull-left">
-                                                        <i class="fa fa-calendar fa-2x"></i>
-                                                    </span>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Số năm hoạt động</h4>
-                                                        <span>Hơn 09 năm</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 col-md-5">
-                                                <div class="media">
-                                                    <span class="pull-left">
-                                                        <i class="fa fa-map-marker fa-2x"></i>
-                                                    </span>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Địa chỉ</h4>
-                                                        <span>Số 63 Phố Đỗ Quang, Trung Hòa, Hà Nội</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 col-md-3">
-                                                <div class="media">
-                                                    <span class="pull-left">
-                                                        <i class="fa fa-group fa-2x media-object"></i>
-                                                    </span>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Thành viên</h4>
-                                                        <span>4 Công ty</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Event description -->
                 </section>
                 <!-- /SLIDER -->
             </div>
@@ -115,10 +67,10 @@
                     <div class="col-lg-6">
                         <h1 class="section-title">
                             <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
-                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Giới thiệu</span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Introduction</span>
                         </h1>
                         <div class="row">
-                            <p data-animation="fadeInUp" data-animation-delay="300" style="text-align: justify">Là một công ty hoạt động trong lĩnh vực kinh doanh thiết bị y tế, chúng tôi hiểu rằng, đây là một ngành kinh doanh đặc biệt, có ảnh hưởng trực tiếp đến sức khỏe cũng như tính mạng con người. Do vậy, với mục tiêu bảo vệ sức khỏe người Việt, ngay từ khi thành lập, Y TẾ CƯỜNG MẠNH đã xác định phương châm kinh doanh là mang đến những sản phẩm với chất lượng và dịch vụ tốt nhất. Đây chính là chìa khóa thành công cho Y TẾ CƯỜNG MẠNH và cũng là định hướng để chúng tôi phát triển trong tương lai.</p>
+                            <p data-animation="fadeInUp" data-animation-delay="300" style="text-align: justify">This is demo description</p>
                             <p class="btn-row">
                                 <a href="about-us.php" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Thông tin chi tiết <i class="fa fa-arrow-circle-right"></i></a>
                                 <!-- <a href="https://www.youtube.com/watch?v=dH3v9oOvYs0" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-gal="prettyPhoto" data-animation="flipInY" data-animation-delay="400">Video giới thiệu</a> -->
@@ -272,7 +224,7 @@
                 </div>
             </section>
 
-            <section class="page-section image" id="register" style="padding-top: 20px;padding-bottom: 20px;">
+            <!-- <section class="page-section image" id="register" style="padding-top: 20px;padding-bottom: 20px;">
                 <div class="container">
                     <h1 class="section-title">
                         <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
@@ -309,19 +261,19 @@
                         </div>
                     </form>
                 </div>
-            </section>
+            </section> -->
 
             <section class="page-section" style="padding-top: 20px;padding-bottom: 20px;">
                 <div class="container">
                     <h1 class="section-title">
                         <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-file-text-o fa-stack-1x"></i></span></span>
-                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Bài viết nổi bật<small></small></span>
+                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Popular products<small></small></span>
                     </h1>
                     <div class="row post-row">
                         <?php //include_once 'views/show/show_post_index.php'; ?>
                     </div>
                     <div class="text-center margin-top">
-                        <a data-animation="flipInY" data-animation-delay="100" href="blogs.php" class="btn btn-theme"><i class="fa fa-file"></i> Xem thêm tin tức</a>
+                        <!-- <a data-animation="flipInY" data-animation-delay="100" href="blogs.php" class="btn btn-theme"><i class="fa fa-file"></i> Xem thêm tin tức</a> -->
                     </div>
                 </div>
             </section>

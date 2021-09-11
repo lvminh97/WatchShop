@@ -31,14 +31,12 @@ class ViewController extends Controller{
     }
 
     //// CUSTOMER
-    public function getRoomListForCustomerPage($data){
-        if($this->accountObj->checkLoggedIn() == "Role_None") $user = null;
-        else $user = $this->accountObj->getItemByToken(getCookie("tt_tkn"));
-        $roomList = $this->roomObj->getAvailableList($data);
-        getView("roomlist", array('title' => "Trọ tốt - Danh sách phòng",
-                                    'user' => $user,
-                                    'roomList' => $roomList,
-                                    'url_param' => $data));
+    public function getProductListForCustomerPage($data){
+        // $roomList = $this->roomObj->getAvailableList($data);
+        getView("productlist.customer", array('title' => "PG Watch",
+                                    // 'roomList' => $roomList,
+                                    // 'url_param' => $data
+                                ));
         return null;                                
     }
 

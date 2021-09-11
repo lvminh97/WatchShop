@@ -2,20 +2,20 @@
     require_once "Controller/Route.php";
     $route = new Route("ViewController@getIndex");
     // Dang ky tai khoan
-    $route->get("site", "signup", "ViewController@getSignupPage");
-    $route->post("action", "signup", "AccountController@signupAction");
+    // $route->get("site", "signup", "ViewController@getSignupPage");
+    // $route->post("action", "signup", "AccountController@signupAction");
     // Dang nhap
     $route->get("site", "login", "ViewController@getLoginPage");
     $route->post("action", "login", "AccountController@loginAction");
     $route->get("action", "login", "ViewController@getIndex");
     $route->get("action", "logout", "AccountController@logoutAction");
     /// VIEW FOR CUSTOMER
-    $route->get("site", "room_list", "ViewController@getRoomListForCustomerPage");
-    $route->get("site", "room", "ViewController@getRoomPage");
-    $route->get("site", "room_demo", "ViewController@getRoomDemoPage");
-    $route->get("site", "post", "ViewController@getPostPage");
-    $route->get("site", "my_room", "ViewController@getMyRoomManagePage");
-    $route->get("site", "my_room_detail", "ViewController@getMyRoomDetailPage");
+    $route->get("site", "product", "ViewController@getProductListForCustomerPage");
+    // $route->get("site", "room", "ViewController@getRoomPage");
+    // $route->get("site", "room_demo", "ViewController@getRoomDemoPage");
+    // $route->get("site", "post", "ViewController@getPostPage");
+    // $route->get("site", "my_room", "ViewController@getMyRoomManagePage");
+    // $route->get("site", "my_room_detail", "ViewController@getMyRoomDetailPage");
 
     /// VIEW FOR HOST
     $route->get("link", "manage-home", "ViewController@getHostHomePage");
