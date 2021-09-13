@@ -47,7 +47,9 @@
                         <!-- Sidebar -->
                         <!-- Content -->
                         <section id="content" class="content col-sm-8 col-md-9">
-                            <div class="content col-sm-12 col-md-6" style="margin-bottom: 50px;">
+                        <?php 
+                        for($i = 0; $i <= 6; $i++) {?>    
+                            <div class="content col-sm-12 col-md-6" style="margin-bottom: 30px;">
                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="100">
                                     <div class="post-media" style="background: url('.$row['avatar'].') center center / cover;height: 272px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);"></div>
                                     <div class="post-header">
@@ -63,13 +65,10 @@
                                             <p>'.$row['description_n'].'</p>
                                         </div>
                                     </div>
-                                    <div class="post-footer">
-                                        <span class="post-readmore">
-                                            <a href="bai-viet-'.utf8tourl($row['name_post']).'-'.$row['id_post'].'.html" class="btn btn-theme btn-theme-transparent">Đọc tiếp</a>
-                                        </span>
-                                    </div>
                                 </article>
                             </div>
+                        <?php
+                        } ?>
                         </section>
                         <!-- Content -->
                         <hr class="page-divider transparent visible-xs" />
