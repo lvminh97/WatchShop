@@ -10,27 +10,11 @@
     $route->get("action", "login", "ViewController@getIndex");
     $route->get("action", "logout", "AccountController@logoutAction");
     /// VIEW FOR CUSTOMER
-    $route->get("site", "product", "ViewController@getProductListForCustomerPage");
-    // $route->get("site", "room", "ViewController@getRoomPage");
-    // $route->get("site", "room_demo", "ViewController@getRoomDemoPage");
-    // $route->get("site", "post", "ViewController@getPostPage");
-    // $route->get("site", "my_room", "ViewController@getMyRoomManagePage");
-    // $route->get("site", "my_room_detail", "ViewController@getMyRoomDetailPage");
-
-    /// VIEW FOR HOST
-    $route->get("link", "manage-home", "ViewController@getHostHomePage");
-    $route->get("link", "manage-room", "ViewController@getManageRoomPage");
-    $route->get("link", "manage-room-detail", "ViewController@getManageRoomDetailPage");
-    $route->get("link", "manage-post", "ViewController@getManagePostPage");
-    $route->get("link", "manage-bill", "ViewController@getManageBillPage");
-    $route->get("link", "manage-rent", "ViewController@getManageRentPage");
-    $route->get("link", "manage-transfer", "ViewController@getManageTransferTenantPage");
-    $route->get("link", "manage-receive", "ViewController@getManageReceiveTenantPage");
-    $route->get("link", "statistic", "ViewController@getManageStatisticPage");
+    $route->get("site", "product_list", "ViewController@getProductListForCustomerPage");
+    $route->get("site", "product", "ViewController@getProductForCustomerPage");
 
     // VIEW FOR ADMIN
-    $route->get("link", "approve-post", "ViewController@getApprovePostPage");
-    $route->get("link", "manage-host", "ViewController@getManageHostPage");
+    $route->get("site", "admin", "ViewController@getLoginForAdminPage");
 
     //// ACCOUNT API
     $route->post("api", "get_user_infor", "AccountController@getUserInfor");

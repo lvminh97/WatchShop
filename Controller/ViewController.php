@@ -40,6 +40,10 @@ class ViewController extends Controller{
         return null;                                
     }
 
+    public function getProductForCustomerPage($data){
+        return null;
+    }
+
     public function getRoomPage($data){
         if($this->accountObj->checkLoggedIn() == "Role_None") $user = null;
         else $user = $this->accountObj->getItemByToken(getCookie("tt_tkn"));
@@ -269,6 +273,13 @@ class ViewController extends Controller{
     }
 
     //// ADMIN
+    public function getLoginForAdminPage($data){
+        if($this->accountObj->checkLoggedIn() != "Role_None"){}
+        else{
+            getView("login.admin", null);
+        }
+        return null;
+    }
     public function getApprovePostPage($data){
         if($this->accountObj->checkLoggedIn() != "Role_Admin"){
             getView("login", array('title' => "Trọ Tốt - Đăng nhập",

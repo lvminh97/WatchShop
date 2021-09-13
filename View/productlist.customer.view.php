@@ -26,7 +26,7 @@
         <?php getTemplate("navbar") ?>
         <!-- /HEADER -->
         <div class="banner-top" style="height: 210px;">
-            <h1>TIN TỨC - SỰ KIỆN Y TẾ</h1>
+            <h1>PRODUCTS</h1>
         </div>
         <!-- Content area -->
         <div class="content-area">
@@ -51,20 +51,25 @@
                         for($i = 0; $i <= 6; $i++) {?>    
                             <div class="content col-sm-12 col-md-6" style="margin-bottom: 30px;">
                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="100">
-                                    <div class="post-media" style="background: url('.$row['avatar'].') center center / cover;height: 272px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);"></div>
+                                    <div class="post-media" style="background: url('Resource/Images/gsmarena_002.jpg') center center / cover;height: 272px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);"></div>
                                     <div class="post-header">
-                                        <h2 class="post-title"><a href="bai-viet-'.utf8tourl($row['name_post']).'-'.$row['id_post'].'.html">'.$row['name_post'].'</a></h2>
+                                        <h2 class="post-title" style="font-size: 20px;"><a href="?site=product&id=1">GS Marena 002</a></h2>
                                         <div class="post-meta">
-                                            <span class="post-date">
-                                                Đăng ngày '.$row['date'].'
+                                            <span class="post-date" style="font-size: 18px;">
+                                                8,500,000 VND
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="post-body">
+                                    <!-- <div class="post-body">
                                         <div class="post-excerpt">
-                                            <p>'.$row['description_n'].'</p>
+                                            
                                         </div>
                                     </div>
+                                    <div class="post-footer">
+                                        <span class="post-readmore">
+                                            <a href="?site=product&id=1" class="btn btn-theme btn-theme-transparent">Detail</a>
+                                        </span>
+                                    </div> -->
                                 </article>
                             </div>
                         <?php

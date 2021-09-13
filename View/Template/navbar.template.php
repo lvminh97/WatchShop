@@ -17,7 +17,7 @@
                 <ul class="sf-menu nav">
                     <li><a href="./.">Homepage</a></li>
                     <li><a href="./?site=info">Information</a></li>
-                    <li><a href="./?site=product">Products</a></li>
+                    <li><a href="./?site=product_list">Products</a></li>
                     <li><a href="./?site=contact">Contact</a></li>
                 </ul>
             </nav>
