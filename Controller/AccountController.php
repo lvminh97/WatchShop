@@ -25,21 +25,18 @@ class AccountController extends Controller{
 
     public function loginAction($data){
         $resp = array('code' => '');
-        $loginData = $this->accountObj->login($data['username'], _hash($data['password']));
-        if($loginData !== null){
-            //
-            $token = $this->tokenObj->check($loginData['user_id']);
-            if($token === null){
-                $token = $this->tokenObj->addItem($loginData['user_id']);
-            }
-            setcookie("tt_tkn", $token, time() + 864000);
+        // $loginData = $this->accountObj->login($data['username'], _hash($data['password']));
+        // if($loginData !== null){
+        if($data['username'] == "admin" && $data['password'] == "12345678"){
+            $_SESSION['username'] = $data['username']; // temp
             $resp['code'] = "OK";
-            $resp['token'] = $token;
         }
         else{
+            unset($_SESSION['username']);
             $resp['code'] = "Fail";
         }
-        return $resp;
+        nextpage("./?site=home-admin");
+        // return $resp;
     }
 
     public function logoutAction(){
