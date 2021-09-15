@@ -308,7 +308,8 @@ class ViewController extends Controller{
             nextpage("./?site=admin");
         }
         else{
-            getView("product.manage", array('productList' => $this->productObj->getProductList()));
+            getView("product.manage", array('productList' => $this->productObj->getProductList(),
+                                            'brandList' => $this->productObj->getBrandList()));
         }
         return null;
     }

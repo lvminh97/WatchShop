@@ -3,7 +3,7 @@
 
     <!-- LOGO -->
     <div class='topbar-left'>
-        <a href='/index.php' class='logo'>PG Watch<i class='mdi mdi-layers'></i></a>
+        <a href='./.' class='logo'>PG Watch<i class='mdi mdi-layers'></i></a>
     </div>
 
     <!-- Button mobile view to collapse sidebar menu -->
