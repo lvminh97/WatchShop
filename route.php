@@ -16,7 +16,7 @@
     // VIEW FOR ADMIN
     $route->get("site", "admin", "ViewController@getLoginForAdminPage");
     $route->get("site", "home-admin", "ViewController@getHomeForAdminPage");
-    $route->get("site", "category-manage", "ViewController@getCategoryManagePage");
+    $route->get("site", "brand-manage", "ViewController@getBrandManagePage");
     $route->get("site", "product-manage", "ViewController@getProductManagePage");
 
     //// ACCOUNT API

@@ -293,12 +293,22 @@ class ViewController extends Controller{
         return null;
     }
 
-    public function getCategoryManagePage($data){
+    public function getBrandManagePage($data){
         if($this->accountObj->checkLoggedIn() == "Role_None"){
             nextpage("./?site=admin");
         }
         else{
-            getView("category.manage", null);
+            getView("brand.manage", array('brandList' => $this->productObj->getBrandList()));
+        }
+        return null;
+    }
+
+    public function getProductManagePage($data){
+        if($this->accountObj->checkLoggedIn() == "Role_None"){
+            nextpage("./?site=admin");
+        }
+        else{
+            getView("product.manage", array('productList' => $this->productObj->getProductList()));
         }
         return null;
     }

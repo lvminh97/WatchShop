@@ -54,7 +54,7 @@
                 </li>
 
                  <li class='has_sub'>
-                    <a href='?site=category-manage' class='waves-effect'><i class='mdi mdi-book-variant'></i><span> Category </span> </a>
+                    <a href='?site=brand-manage' class='waves-effect'><i class='mdi mdi-book-variant'></i><span> Brand </span> </a>
                 </li>
 
                 <li class='has_sub'>

@@ -20,8 +20,28 @@ class Product extends DB{
         else return null;
     }
 
-    public function addItem($user_id){
-       
+    public function addBrand($name){
+       return $this->insert("brand", array('brand_id' => "null", 'name' => $name));
+    }
+
+    public function getBrandList(){
+        return $this->select("brand", "*", "1", "brand_id ASC");
+    }
+
+    public function removeBrand($brand_id){
+        return $this->delete("brand", "brand_id='$brand_id'");
+    }
+
+    public function addProduct(){
+
+    }
+
+    public function getProductList(){
+        return $this->select("product", "*", "1", "product_id ASC");
+    }
+
+    public function removeProduct($product_id){
+        return $this->delete("product", "product_id='$product_id'");
     }
 }
 ?>
