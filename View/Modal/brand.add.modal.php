@@ -11,7 +11,7 @@
 				<form id="addPostForm">
 					<div class="form-group">
 						<label for="post_title">Brand name</label>
-						<input type="text" class="form-control" id="post_title" style="width: 100%;">
+						<input type="text" class="form-control" id="brand-name" style="width: 100%;">
 					</div>
 				</form>
 			</div>

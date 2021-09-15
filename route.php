@@ -32,11 +32,11 @@
     // $route->post("api", "update_room", "RoomController@updateRoomAction");
     $route->post("api", "delete_product", "ProductController@deleteProductAction");
     //// BRAND API
-    $route->post("api", "add_brand", "PostController@addBrandAction");
+    $route->post("api", "add_brand", "ProductController@addBrandAction");
     // $route->get("api", "get_post", "PostController@getPostAction");
     // $route->post("api", "get_post_list", "PostController@getPostListAction");
     // $route->post("api", "update_post", "PostController@updatePostAction");
-    // $route->post("api", "delete_post", "PostController@deletePostAction");
+    $route->post("api", "delete_brand", "ProductController@deleteBrandAction");
     // $route->post("api", "approve_post", "PostController@approvePostAction");
 
     $route->process();

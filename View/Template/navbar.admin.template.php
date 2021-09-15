@@ -3,7 +3,7 @@
 
     <!-- LOGO -->
     <div class='topbar-left'>
-        <a href='./.' class='logo'>PG Watch<i class='mdi mdi-layers'></i></a>
+        <a href='./?site=home-admin' class='logo'>PG Watch<i class='mdi mdi-layers'></i></a>
     </div>
 
     <!-- Button mobile view to collapse sidebar menu -->
@@ -50,7 +50,7 @@
         <div id='sidebar-menu'>
             <ul>
                 <li class='has_sub'>
-                    <a href='index.php' class='waves-effect'><i class='mdi mdi-view-dashboard'></i><span> Home </span> </a>
+                    <a href='./?site=home-admin' class='waves-effect'><i class='mdi mdi-view-dashboard'></i><span> Home </span> </a>
                 </li>
 
                  <li class='has_sub'>

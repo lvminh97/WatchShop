@@ -34,9 +34,8 @@ class ViewController extends Controller{
     public function getProductListForCustomerPage($data){
         // $roomList = $this->roomObj->getAvailableList($data);
         getView("productlist.customer", array('title' => "PG Watch",
-                                    // 'roomList' => $roomList,
-                                    // 'url_param' => $data
-                                ));
+                                                'productList' => $this->productObj->getProductList(),
+                                                'brandList' => $this->productObj->getBrandList()));
         return null;                                
     }
 

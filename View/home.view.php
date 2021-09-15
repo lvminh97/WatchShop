@@ -71,8 +71,8 @@
                         </h1>
                         <div class="row">
                             <p data-animation="fadeInUp" data-animation-delay="300" style="text-align: justify">This is demo description</p>
-                            <p class="btn-row">
-                                <a href="about-us.php" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Thông tin chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                            <p class="btn-row" style="margin-top: 20px;">
+                                <a href="about-us.php" class="btn btn-theme btn-theme-xl scroll-to" data-animation="flipInY" data-animation-delay="200">Detail <i class="fa fa-arrow-circle-right"></i></a>
                                 <!-- <a href="https://www.youtube.com/watch?v=dH3v9oOvYs0" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-gal="prettyPhoto" data-animation="flipInY" data-animation-delay="400">Video giới thiệu</a> -->
                                 <!-- <a class="btn btn-play" href="https://www.youtube.com/watch?v=dH3v9oOvYs0" data-gal="prettyPhoto"><i class="fa fa-play"></i></a> -->
                             </p>
@@ -80,17 +80,17 @@
                     </div>
                     <div class="col-lg-6" style="padding: 35px 15px;">
                         <div class="row thumbnails">
-                            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <!-- <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                                 <iframe style="width: 100%;height: 240px;border-radius: 6px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);" src="https://www.youtube.com/embed/MzEfl5V1Rhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p style="margin-top: 10px;">MÁY LÀM SẠCH KHÔNG KHÍ AIRFREE, SẢN PHẨM ĐỘC QUYỀN <br> Y TẾ CƯỜNG MẠNH</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </section>
             <!-- /PAGE ABOUT -->
             <!-- Donation -->
-            <section class="page-section color" style="padding: 30px 0 10px 0;background: url(assets/img/banner/bg.jpg) center center / cover;" id="donation">
+            <!-- <section class="page-section color" style="padding: 30px 0 10px 0;background: url(assets/img/banner/bg.jpg) center center / cover;" id="donation">
                 <div class="container">
                     <h1 class="section-title">
                         <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
@@ -98,13 +98,13 @@
                     </h1>
                     <p>GIẢI PHÁP TOÀN DIỆN, GIÁ TRỊ VỮNG BỀN</p>
                 </div>
-            </section>
+            </section> -->
             <!-- /Donation -->
             <!-- PAGE SCHEDULE -->
             <div style="background: url(assets/img/banner/m2.jpg) center center / cover;">
             <?php //include_once 'views/components/member.php'; ?>
             <!-- /PAGE SCHEDULE -->
-            <section style="background: #0000;" class="page-section" id="price">
+            <!-- <section style="background: #0000;" class="page-section" id="price">
                 <div class="container">
                     <h1 class="section-title clearfix">
                         <span data-animation="flipInY" data-animation-delay="300" class="icon-inner animated flipInY visible"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
@@ -152,77 +152,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             </div>
-            <section class="page-section color" style="padding-top: 20px;padding-bottom: 10px;background: url(assets/img/banner/bg3.jpg) center center / cover;">
-                <div class="container">
-                    <h1 class="section-title">
-                        <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-comments fa-stack-1x"></i></span></span>
-                        <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner" style="color: #fff !important">Khách hàng nói gì về chúng tôi <small></small></span>
-                    </h1>
-                    <!-- Testimonials -->
-                    <div id="testimonials" class="owl-carousel testimonials" data-animation="fadeInUp" data-animation-delay="100">
-                        <div class="media testimonial">
-                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
-                                <div class="hex testimonial-avatar">
-                                    <div class="hex-deg">
-                                        <div class="hex-deg">
-                                            <div class="hex-deg">
-                                                <div class="hex-inner">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <p>Chúng tôi không cần quá nhiều máy móc mà cần những máy công suất xét nghiệm lớn và cho ra độ chính xác cao. Các dòng sản phẩm của Siemens healthineers do công ty Medicom phân phối là một sự lựa chọn tuyệt vời giúp các bác sĩ chúng tôi giải quyết được vấn đề bệnh nhân ngày càng đông như hiện nay</p>
-                                <h4 class="media-heading">Bệnh viện đa khoa tỉnh Quảng Ninh</h4>
-                            </div>
-                        </div>
-                        <div class="media testimonial">
-                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
-                                <div class="hex testimonial-avatar">
-                                    <div class="hex-deg">
-                                        <div class="hex-deg">
-                                            <div class="hex-deg">
-                                                <div class="hex-inner">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <p>Rất cảm ơn công ty và đội ngũ nhân viên rất nhiệt tình hỗ trợ. Chúng tôi được hỗ trợ lắp đặt tại chỗ, được lắp đặt tận mắt và hướng dẫn sử dụng rất rõ ràng. Hiếm có đơn vị nào nhiệt tính với bệnh viện chúng tôi như vậy </p>
-                                <h4 class="media-heading">Bệnh viện đại học y Hà Nội</h4>
-                            </div>
-                        </div>
-                        <div class="media testimonial">
-                            <div class="media-object pull-right" data-animation="flipInY" data-animation-delay="300">
-                                <div class="hex testimonial-avatar">
-                                    <div class="hex-deg">
-                                        <div class="hex-deg">
-                                            <div class="hex-deg">
-                                                <div class="hex-inner">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <p>Rất cảm ơn Medicom và đội ngũ kinh doanh. Chúng tôi rất ưng sản phẩm và thái độ phục vụ nhân viên. Máy móc rất hiện đại, thật sự rất đáng đầu tư vì liên quan đến tính mạng con người. Các máy móc đều thuận tiện trong việc lắp đặt, nâng cấp, bổ sung máy móc mới.</p>
-                                <h4 class="media-heading">Bệnh Viện Đa khoa Nam Định</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonials -->
-                </div>
-            </section>
+            
 
             <!-- <section class="page-section image" id="register" style="padding-top: 20px;padding-bottom: 20px;">
                 <div class="container">

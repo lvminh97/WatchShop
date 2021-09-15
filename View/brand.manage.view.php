@@ -58,9 +58,8 @@
                                                 <td><?php echo $no++; ?></td>
                                                 <td><?php echo $brand['name'] ?></td>
                                                 <td>
-                                                    <button class="btn btn-primary" onclick="window.location.href='?link=manage-room-detail&id='+this.parentElement.parentElement.id"><i class="fa fa-eye"></i></button>
-                                                    <button class="btn btn-warning" data-toggle="modal" data-target="#updateRoomModal" onclick="loadRoom(this)"><i class="fa fa-edit"></i></button>
-                                                    <button class="btn btn-danger" onclick="deleteRoom(this)"><i class="fa fa-trash"></i></button>
+                                                    <button class="btn btn-warning" data-toggle="modal" data-target="#update-brand-modal" onclick="loadBrand(this)"><i class="fa fa-edit"></i></button>
+                                                    <button class="btn btn-danger" onclick="deleteBrand(this)"><i class="fa fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         <?php 

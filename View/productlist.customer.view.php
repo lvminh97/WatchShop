@@ -37,10 +37,13 @@
                         <!-- Sidebar -->
                         <aside id="sidebar" class="sidebar col-sm-4 col-md-3">
                             <div class="widget categories">
-                                <h4 class="widget-title">Category</h4>
+                                <h4 class="widget-title">Brand</h4>
                                 <ul>
-                                    <li><a href="blogs-kind.php?id=1">Category 1</a></li>
-                                    <li><a href="blogs-kind.php?id=2">Category 2</a></li>
+                                <?php
+                                foreach($viewParams['brandList'] as $brand){?>
+                                    <li><a href="./?site=product_list&brand=<?php echo $brand['brand_id'] ?>"><?php echo $brand['name'] ?></a></li>
+                                <?php
+                                } ?>
                                 </ul>
                             </div>
                         </aside>
@@ -48,15 +51,18 @@
                         <!-- Content -->
                         <section id="content" class="content col-sm-8 col-md-9">
                         <?php 
-                        for($i = 0; $i <= 6; $i++) {?>    
+                        foreach($viewParams['productList'] as $product) {?>    
                             <div class="content col-sm-12 col-md-6" style="margin-bottom: 30px;">
                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="100">
-                                    <div class="post-media" style="background: url('Resource/Images/gsmarena_002.jpg') center center / cover;height: 272px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);"></div>
+                                    <?php
+                                    $imageList = explode(";", $product['images']);
+                                    ?>
+                                    <div class="post-media" style="background: url('Resource/Images/<?php echo $imageList[0] ?>') center center / cover;height: 272px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);"></div>
                                     <div class="post-header">
-                                        <h2 class="post-title" style="font-size: 20px;"><a href="?site=product&id=1">GS Marena 002</a></h2>
+                                        <h2 class="post-title" style="font-size: 20px;"><a href="?site=product&id=<?php echo $product['product_id'] ?>"><?php echo $product['name'] ?></a></h2>
                                         <div class="post-meta">
                                             <span class="post-date" style="font-size: 18px;">
-                                                8,500,000 VND
+                                                <?php echo number_format($product['price'], 0, ".", ",") ?> VND
                                             </span>
                                         </div>
                                     </div>

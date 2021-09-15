@@ -293,64 +293,59 @@ function loadPostList(){
 	// 
 }
 
-function addPost() {
+function addBrand() {
 	var fd = new FormData();
-	fd.append("title", getById("post_title").value);
-	fd.append("room_id", getById("post_room").value);
-	fd.append("content", tinymce.EditorManager.get('post_content').getContent({format: 'raw'}));
-	postRequest("?api=add_post", fd, function (resp) {
-		var form = getById("addPostForm");
-		for (var i = 0; i < form.length; i++) form[i].value = "";
-		tinymce.EditorManager.get('post_content').setContent("");
+	fd.append("name", getById("brand-name").value);
+	postRequest("?api=add_brand", fd, function (resp) {
 		var data = JSON.parse(resp);
-		if (data["code"] == "OK") window.location.reload(true);
+		if(data["code"] == "OK") window.location.reload(true);
 	});
 }
 
 function loadPost(obj) {
-	var fd = new FormData();
-	var id = obj.parentElement.parentElement.id;
-	getRequest("?api=get_post&id=" + id, function (resp) {
-		// console.log(resp);
-		var data = JSON.parse(resp);
-		if (data['code'] == "OK") {
-			var post = data['post'];
-			getById("e_post_id").value = post["post_id"];
-			getById("e_post_title").value = post["title"];
-			getById("e_post_room").value = post["room_id"];
-			tinymce.EditorManager.get('e_post_content').setContent(post['content']);
-		}
-	});
+	// var fd = new FormData();
+	// var id = obj.parentElement.parentElement.id;
+	// getRequest("?api=get_post&id=" + id, function (resp) {
+	// 	// console.log(resp);
+	// 	var data = JSON.parse(resp);
+	// 	if (data['code'] == "OK") {
+	// 		var post = data['post'];
+	// 		getById("e_post_id").value = post["post_id"];
+	// 		getById("e_post_title").value = post["title"];
+	// 		getById("e_post_room").value = post["room_id"];
+	// 		tinymce.EditorManager.get('e_post_content').setContent(post['content']);
+	// 	}
+	// });
 }
 
 function updatePost(){
-	var fd = new FormData();
-	fd.append("id", getById("e_post_id").value);
-	fd.append("title", getById("e_post_title").value);
-	fd.append("room_id", getById("e_post_room").value);
-	fd.append("content", tinymce.EditorManager.get('e_post_content').getContent({format: 'raw'}));
-	postRequest("?api=update_post", fd, function (resp) {
-		// console.log(resp);
-		var form = getById("updatePostForm");
-		for (var i = 0; i < form.length; i++) form[i].value = "";
-		tinymce.EditorManager.get('e_post_content').setContent("");
-		var data = JSON.parse(resp);
-		if (data["code"] == "OK") window.location.reload(true);
-	});
+	// var fd = new FormData();
+	// fd.append("id", getById("e_post_id").value);
+	// fd.append("title", getById("e_post_title").value);
+	// fd.append("room_id", getById("e_post_room").value);
+	// fd.append("content", tinymce.EditorManager.get('e_post_content').getContent({format: 'raw'}));
+	// postRequest("?api=update_post", fd, function (resp) {
+	// 	// console.log(resp);
+	// 	var form = getById("updatePostForm");
+	// 	for (var i = 0; i < form.length; i++) form[i].value = "";
+	// 	tinymce.EditorManager.get('e_post_content').setContent("");
+	// 	var data = JSON.parse(resp);
+	// 	if (data["code"] == "OK") window.location.reload(true);
+	// });
 }
 
-function deletePost(obj) {
-	var cf = confirm("Bạn muốn xóa bài đăng này?");
+function deleteBrand(obj) {
+	var cf = confirm("Do you really want to delete this item?");
 	if (!cf) return;
 	var fd = new FormData();
-	fd.append("id", obj.parentElement.parentElement.id);
-	postRequest("?api=delete_post", fd, function (resp) {
+	fd.append("brand_id", obj.parentElement.parentElement.id);
+	postRequest("?api=delete_brand", fd, function (resp) {
 		// console.log(resp);
 		var data = JSON.parse(resp);
 		if (data["code"] == "OK") {
 			window.location.reload(true);
 		}
-	})
+	});
 }
 
 function roomTypeFilter(type){

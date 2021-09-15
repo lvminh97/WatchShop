@@ -58,7 +58,12 @@
                                         foreach($viewParams['productList'] as $product) { ?>
                                             <tr id="<?php echo $product["product_id"] ?>">
                                                 <td><?php echo $product["product_id"] ?></td>
-                                                <td></td>
+                                                <td>
+                                                <?php
+                                                $imageList = explode(";", $product['images']);
+                                                echo "<img style='width: 100%; height: 100%' src='./Resource/Images/{$imageList[0]}'>";
+                                                ?>
+                                                </td>
                                                 <td><?php echo $product['name'] ?></td>
                                                 <td><?php echo $product['price']." VND"; ?></td>
                                                 <td>
